@@ -1,0 +1,8 @@
+public/
+.DS_Store
+.Rproj.user
+*.R
+academic.Rproj
+.Rhistory
+.RData
+.vscode

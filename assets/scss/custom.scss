@@ -1,0 +1,32 @@
+.hero-title {
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  font-weight: 400 !important;
+  font-size: 2.8rem !important;
+  margin-top: 0;
+  line-height: 3;
+}
+
+.hero-lead {
+  max-width: 768px;
+  font-size: 1rem !important;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}
+
+.wg-hero.dark .btn {
+  color: #818182;
+  font-family: Impact;
+}
+
+.wg-hero .btn-lg, .wg-hero .btn-group-lg>.btn {
+  font-size: 1rem;
+}
+
+.wg-hero .btn {
+  padding: 1em 2.1em;
+  padding-top: 1em;
+  padding-right: 2.1em;
+  padding-bottom: 1em;
+  padding-left: 2.1em;
+  margin: 1em;
+}
