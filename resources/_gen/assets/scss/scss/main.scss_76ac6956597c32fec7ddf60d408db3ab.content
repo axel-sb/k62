@@ -9235,14 +9235,16 @@ html[dir="rtl"] body {
 
 .hero-title {
   font-family: 'Special Elite', 'Courier New', monospace, sans-serif;
+  color: #242424;
   font-weight: 400 !important;
   font-size: 2.8rem !important;
   margin-top: 0;
   line-height: 3; }
 
 .hero-lead {
-  max-width: 768px;
+  color: #242424;
   font-size: 1rem !important;
+  max-width: 768px;
   line-height: 1.5;
   margin-bottom: 0.5em; }
 

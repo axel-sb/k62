@@ -13,12 +13,13 @@ bio: making the world a better place
 #     year: 2008
 email: ""
 interests:
-- interestimg things
-- very interesting things
+different things, such as:
+- interesting things
+- other things
 organizations:
 - name: Kommune 62
   url: https://kommune62.de/
-role: angel
+role: Chef
 social:
 - icon: envelope
   icon_pack: fas
