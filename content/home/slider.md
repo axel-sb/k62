@@ -17,7 +17,7 @@ height = ""
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = "Kommune 62"
-  content = "Die Kommune finde ich sehr gut! :thumbsup:"
+  content = "\"Die Kommune finde ich sehr gut!\" :thumbsup:"
   align = "center"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).

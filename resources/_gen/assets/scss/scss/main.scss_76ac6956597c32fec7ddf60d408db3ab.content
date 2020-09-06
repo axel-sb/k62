@@ -9263,6 +9263,14 @@ html[dir="rtl"] body {
   padding-left: 2.1em;
   margin: 1em; }
 
+.wg-hero.dark .hero-title,
+.wg-hero.dark .hero-lead,
+.wg-hero.dark .hero-cta-alt,
+.wg-hero.dark .hero-note > * {
+  color: #111;
+  /*text-shadow: 1px 1px 4px rgba(0,0,0,0.5);*/
+  /* Uncomment to standout on complicated backgrounds. */ }
+
 /* 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
