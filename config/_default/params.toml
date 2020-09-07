@@ -13,8 +13,8 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-#   theme = "my_theme"
 theme = "minimal"
+
 
 # Enable users to switch between day and night mode?
 day_night = true
@@ -203,9 +203,10 @@ plugins_js  = []
   #   2: Compact
   #   3: Card
   #   4: Citation (publications only)
-  post_view = 2
-  publication_view = 2
-  talk_view = 2
+  #   5: Showcase (large images), only available for projects
+  post_view = 5
+  publication_view = 5
+  talk_view = 5
 
 ############################
 ## Comments
