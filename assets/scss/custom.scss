@@ -251,3 +251,11 @@ btn btn-primary btn-lg active {
   height: 30px;
   background: no-repeat 50% / 100% 100%; }
 */ 
+
+.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:focus {
+  background-color: #313d4f !important; }
+
+.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary.active {
+  background-color: #6079909a !important; }
