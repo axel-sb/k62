@@ -7,7 +7,7 @@ authors:
 - "corinna-bernshaus"
 
 # Is this the primary user of the site?
-superuser: false
+superuser: true
 
 
 # Social/Academic Networking
@@ -27,3 +27,6 @@ social:
 user_groups:
 - Artists
 ---
+{{ <gallery>}}
+
+

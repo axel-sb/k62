@@ -47,7 +47,6 @@ subtitle = ""
  css_style = "color: #000"
  
  # CSS class.
- css_class = ""
+ css_class = "background-color"
 
- # authors = "Corinna-Bernshaus"
 +++
