@@ -13,7 +13,7 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "minimal"
+theme = "my_theme"
 
 
 # Enable users to switch between day and night mode?
@@ -79,7 +79,7 @@ privacy_pack = false
 edit_page = {repo_url = "https://github.com/axel-sb/k62", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
 # Show related content at the bottom of pages?
-show_related = {docs = false, page = false, post = true, project = false, publication = false, talk = false}
+show_related = {docs = false, page = false, post = false, project = true, publication = false, talk = false}
 
 ############################
 ## Contact details

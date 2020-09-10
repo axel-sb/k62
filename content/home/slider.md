@@ -11,13 +11,13 @@ interval = false
 
 # Slide height (optional).
 # E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
-height = ""
+height = 'calc(100vh - 70px)' 
 
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = "Kommune 62"
-  content = "\"Die Kommune finde ich sehr gut!\" :thumbsup:"
+  content = "\"Die Kommune :heart: finde ich sehr gut!\" :thumbsup:"
   align = "center"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
@@ -49,7 +49,7 @@ height = ""
   align = "right"
 
   overlay_color = "#333"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/media/` folder.
+  overlay_img = "20200113_eingangshund.png"  # Image path relative to your `static/media/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
 
   [[item]]
@@ -58,6 +58,25 @@ height = ""
   align = "center"
 
   overlay_color = "#333"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/media/` folder.
+  overlay_img = "20200227_bruecke.jpeg"  # Image path relative to your `static/media/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+  [[item]]
+  title = "Caro"
+  content = ""
+  align = "left"
+
+  overlay_color = "#333"  # An HTML color value.
+  overlay_img = "carokunstverein.jpeg"  # Image path relative to your `static/media/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+  cta_label = "Caro  :radio_button:"
+  cta_url = "/project/carolin/"
+  cta_icon_pack = "fas"
+  #cta_icon = "graduation-cap"
+
+
+
+
+
 +++
