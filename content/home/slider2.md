@@ -39,9 +39,9 @@ height = "calc(100vh - 35px)"
   #overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
 [[item]]
-  title = "Right"
-  content = "I am right aligned :smile:"
-  align = "right"
+  #title = "Right"
+  #content = "I am right aligned :smile:"
+  #align = "right"
 
   #overlay_color = "#333"  # An HTML color value.
   overlay_img = "20200113_eingangshund.png"  # Image path relative to your `static/media/` folder.
@@ -58,17 +58,16 @@ height = "calc(100vh - 35px)"
 
   [[item]]
   title = "Caro"
-  content = ""
-  align = "left"
+  align = "right"
 
   #overlay_color = "#333"  # An HTML color value.
   overlay_img = "carokunstverein.jpeg"  # Image path relative to your `static/media/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
-  cta_label = "Caro  :radio_button:"
+  cta_label = "Caro"
   cta_url = "/project/carolin/"
   cta_icon_pack = "fas"
-  #cta_icon = "graduation-cap"
+  cta_icon = "user-circle"
 
 
 

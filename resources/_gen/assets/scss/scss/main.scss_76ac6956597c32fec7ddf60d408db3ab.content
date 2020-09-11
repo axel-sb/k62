@@ -9404,19 +9404,25 @@ btn btn-primary btn-lg active {
   margin-bottom: 0.5em; }
 
 .wg-hero.dark .btn {
-  color: #818182;
-  font-family: Impact; }
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'Courier New';
+  padding-right: 10px;
+  height: 50vh;
+  width: 50vw; }
 
 .wg-hero .btn-lg, .wg-hero .btn-group-lg > .btn {
   font-size: 1rem; }
 
 .wg-hero .btn {
-  padding: 1em 2.1em;
-  padding-top: 1em;
-  padding-right: 2.1em;
-  padding-bottom: 1em;
-  padding-left: 2.1em;
-  margin: 1em; }
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'Courier New';
+  padding-right: 10px;
+  height: 50vh;
+  width: 50vw; }
 
 .wg-hero.dark .hero-title,
 .wg-hero.dark .hero-lead,
@@ -9426,13 +9432,14 @@ btn btn-primary btn-lg active {
   /*text-shadow: 1px 1px 4px rgba(0,0,0,0.5);*/
   /* Uncomment to standout on complicated backgrounds. */ }
 
+/*
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
   width: 30px;
   height: 30px;
   background: no-repeat 50% / 100% 100%; }
-
+*/
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
   background-color: #313d4f !important; }
@@ -9472,7 +9479,7 @@ h2.mb-4 {
 i.fas.fa-eye {
   width: 100%;
   height: 100%;
-  animation: pulse 5s infinite; }
+  animation: pulse 2s infinite; }
 
 @keyframes pulse {
   0% {
