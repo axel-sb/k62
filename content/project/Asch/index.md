@@ -14,7 +14,7 @@ external_link: ""
 tags:
 - unbeschreiblich
 title: Asch
-url_code: ""
+url_code: "/project/#slider2"
 url_pdf: ""
 url_slides: ""
 url_video: ""

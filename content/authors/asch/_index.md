@@ -21,6 +21,9 @@ social:
 - icon: instagram
   icon_pack: fab
   link: https://www.instagram.com/asch
+- icon: eye
+  icon_pack: fas
+  link: "/#slider2"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

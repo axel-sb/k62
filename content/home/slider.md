@@ -11,7 +11,7 @@ interval = false
 
 # Slide height (optional).
 # E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
-height = 'calc(100vh - 70px)' 
+    
 
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
@@ -74,9 +74,5 @@ height = 'calc(100vh - 70px)'
   cta_url = "/project/carolin/"
   cta_icon_pack = "fas"
   #cta_icon = "graduation-cap"
-
-
-
-
 
 +++

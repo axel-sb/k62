@@ -11,19 +11,14 @@ interval = false
 
 # Slide height (optional).
 # E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
-height = "calc(100vh - 70px)^"
+height = "calc(100vh - 35px)"
+# "calc(100vh - 70px)"
 
-# Slides.
-# Duplicate an `[[item]]` block to add more slides.
 [[item]]
-# title = "Kommune 62"
-#  content = "\"Die Kommune :heart: finde ich sehr gut!\" :thumbsup:"
-#  align = "center"  # Choose `center`, `left`, or `right`.
-
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#FFF"  # An HTML color value.
-  # overlay_img = "headers/bubbles-wide.jpg"  # Image path relative to your `static/media/` folder.
+  # overlay_color = "#FFF"  # An HTML color value.
+  overlay_img = "Seth on Sh….png"  # Image path relative to your `static/media/` folder.
   # overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
@@ -39,34 +34,34 @@ height = "calc(100vh - 70px)^"
 #  content = "I am left aligned :smile:"
 #  align = "left"
 
-  overlay_color = "#555"  # An HTML color value.
-  overlay_img = "PANO_20200101_153033.jpg"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  #overlay_color = "#555"  # An HTML color value.
+  overlay_img = "20200101_baumfeld.jpg"  # Image path relative to your `static/media/` folder.
+  #overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
 [[item]]
   title = "Right"
   content = "I am right aligned :smile:"
   align = "right"
 
-  overlay_color = "#333"  # An HTML color value.
+  #overlay_color = "#333"  # An HTML color value.
   overlay_img = "20200113_eingangshund.png"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.0  # Darken the image. Value in range 0-1.
+  #overlay_filter = 0.0  # Darken the image. Value in range 0-1.
 
   [[item]]
   title = "Middle ;)"
   content = "I am centered! :expressionless:"
   align = "center"
 
-  overlay_color = "#333"  # An HTML color value.
+  #overlay_color = "#333"  # An HTML color value.
   overlay_img = "the-first-public-demonstration_mouse_gui.png"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  #overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
   [[item]]
   title = "Caro"
   content = ""
   align = "left"
 
-  overlay_color = "#333"  # An HTML color value.
+  #overlay_color = "#333"  # An HTML color value.
   overlay_img = "carokunstverein.jpeg"  # Image path relative to your `static/media/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 

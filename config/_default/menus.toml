@@ -29,8 +29,8 @@
   weight = 50
 
 [[main]]
-  name = "Corinna"
-  url = "author/corinna-bernshaus/"
+  name = "Galerie"
+  url = "#slider2"
   weight = 60
 
 # [[main]]
