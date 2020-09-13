@@ -1,9 +1,9 @@
 ---
 date: "2016-04-27T00:00:00Z"
 external_link: ""
-image:
-  caption: Photo by C.W.
-  focal_point: Smart
+#image:
+#  caption: Photo by C.W.
+#  focal_point: Smart
 # links:
 # - icon: twitter
 #   icon_pack: fab
@@ -12,7 +12,6 @@ image:
 # slides: example
 # summary: An example of using the in-built project page.
 tags:
-- aufstrebend
 - aufstrebend
 title: Carolin Wächter
 url_code: ""

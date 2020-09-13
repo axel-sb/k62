@@ -7,17 +7,18 @@ weight = 1  # Order that this section will appear.
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval = false
+interval = 3000
 
 # Slide height (optional).
-# E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
+height = "430px"
+# "calc(100vh - 70px)"
     
 
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = "Kommune 62"
-  content = "\"Die Kommune :heart: finde ich sehr gut!\" :thumbsup:"
+  # content = "\"Die Kommune :heart: finde ich sehr gut!\" :thumbsup:"
   align = "center"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
@@ -35,44 +36,44 @@ interval = false
   #cta_icon = "graduation-cap"
 
 [[item]]
-  title = "Left"
-  content = "I am left aligned :smile:"
-  align = "left"
+#  title = "Left"
+#  content = "I am left aligned :smile:"
+#  align = "left"
 
-  overlay_color = "#555"  # An HTML color value.
-  overlay_img = "arsch.png"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+#  overlay_color = "#555"  # An HTML color value.
+  overlay_img = "k360.png"  # Image path relative to your `static/media/` folder.
+#  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
-[[item]]
-  title = "Right"
-  content = "I am right aligned :smile:"
-  align = "right"
+#  [[item]]
+#    title = "Right"
+#    content = "I am right aligned :smile:"
+#    align = "right"
 
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "20200113_eingangshund.png"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.0  # Darken the image. Value in range 0-1.
+#    overlay_color = "#333"  # An HTML color value.
+#    overlay_img = "20200113_eingangshund.png"  # Image path relative to your `static/media/` folder.
+#    overlay_filter = 0.0  # Darken the image. Value in range 0-1.
 
-  [[item]]
-  title = "Middle ;)"
-  content = "I am centered! :expressionless:"
-  align = "center"
+#    [[item]]
+#    title = "Middle ;)"
+#    content = "I am centered! :expressionless:"
+#    align = "center"
 
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "20200227_bruecke.jpeg"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+#    overlay_color = "#333"  # An HTML color value.
+#    overlay_img = "20200227_bruecke.jpeg"  # Image path relative to your `static/media/` folder.
+#    overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
-  [[item]]
-  title = "Caro"
-  content = ""
-  align = "left"
+#    [[item]]
+#    title = "Caro"
+#    content = ""
+#    align = "left"
 
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "carokunstverein.jpeg"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
+#    overlay_color = "#333"  # An HTML color value.
+#    overlay_img = "carokunstverein.jpeg"  # Image path relative to your `static/media/` folder.
+#    overlay_filter = 0  # Darken the image. Value in range 0-1.
 
-  cta_label = "Caro  :radio_button:"
-  cta_url = "/project/carolin/"
-  cta_icon_pack = "fas"
-  #cta_icon = "graduation-cap"
+#    cta_label = "Caro  :radio_button:"
+#    cta_url = "/project/carolin/"
+#    cta_icon_pack = "fas"
+#    #cta_icon = "graduation-cap"
 
 +++

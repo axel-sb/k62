@@ -14,63 +14,95 @@ interval = false
 height = "calc(100vh - 35px)"
 # "calc(100vh - 70px)"
 
-[[item]]
-  # Overlay a color or image (optional).
-  #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  # overlay_color = "#FFF"  # An HTML color value.
-  overlay_img = "Seth on Sh….png"  # Image path relative to your `static/media/` folder.
-  # overlay_filter = 0.5  # Darken the image. Value in range 0-1.
-
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  #cta_label = "Druck  :radio_button:  Arschen"
-  #cta_url = "waldarsch.jpg"
-  #cta_icon_pack = "fas"
-  #cta_icon = "graduation-cap"
 
 [[item]]
-#  title = "Left"
-#  content = "I am left aligned :smile:"
-#  align = "left"
-
-  #overlay_color = "#555"  # An HTML color value.
-  overlay_img = "20200101_baumfeld.jpg"  # Image path relative to your `static/media/` folder.
-  #overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_img = "P1010882.jpg"  # Image path relative to your `static/media/` folder.
 
 [[item]]
-  #title = "Right"
-  #content = "I am right aligned :smile:"
-  #align = "right"
+  overlay_img = "P1010883.jpg" 
 
-  #overlay_color = "#333"  # An HTML color value.
-  overlay_img = "20200113_eingangshund.png"  # Image path relative to your `static/media/` folder.
-  #overlay_filter = 0.0  # Darken the image. Value in range 0-1.
+[[item]]
+  overlay_img = "P1010885.jpg" 
 
-  [[item]]
-  title = "Middle ;)"
-  content = "I am centered! :expressionless:"
-  align = "center"
+[[item]]
+  overlay_img = "P1010886.jpg" 
 
-  #overlay_color = "#333"  # An HTML color value.
-  overlay_img = "the-first-public-demonstration_mouse_gui.png"  # Image path relative to your `static/media/` folder.
-  #overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+[[item]]
+  overlay_img = "P1010888.jpg" 
 
-  [[item]]
-  title = "Caro"
-  align = "right"
+[[item]]
+  overlay_img = "P1010889.jpg" 
 
-  #overlay_color = "#333"  # An HTML color value.
-  overlay_img = "carokunstverein.jpeg"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
+[[item]]
+  overlay_img = "P1010890.jpg" 
 
-  cta_label = "Caro"
-  cta_url = "/project/carolin/"
-  cta_icon_pack = "fas"
-  cta_icon = "user-circle"
+[[item]]
+  overlay_img = "P1010891.jpg" 
 
+[[item]]
+  overlay_img = "P1010893.jpg" 
 
+[[item]]
+  overlay_img = "P1010898.jpg" 
 
+[[item]]
+  overlay_img = "P1010899.jpg" 
 
+[[item]]
+  overlay_img = "P1010902.jpg" 
+
+[[item]]
+  overlay_img = "P1010903.jpg" 
+
+[[item]]
+  overlay_img = "P1010904.jpg" 
+
+[[item]]
+  overlay_img = "P1010907.jpg" 
+
+[[item]]
+  overlay_img = "P1010912.jpg" 
+
+[[item]]
+  overlay_img = "P1010914.jpg" 
+
+[[item]]
+  overlay_img = "P1010916.jpg" 
+
+[[item]]
+  overlay_img = "P1010919.jpg" 
+
+[[item]]
+  overlay_img = "P1010921.jpg" 
+
+[[item]]
+  overlay_img = "P1010922.jpg" 
+
+[[item]]
+  overlay_img = "P1010925.jpg" 
+
+[[item]]
+  overlay_img = "P1010927.jpg" 
+
+[[item]]
+  overlay_img = "P1010932.jpg" 
+
+[[item]]
+  overlay_img = "P1010935.jpg" 
+
+[[item]]
+  overlay_img = "P1010938.jpg" 
+
+[[item]]
+  overlay_img = "P1010940.jpg" 
+
+[[item]]
+  overlay_img = "P1010954.jpg" 
+
+[[item]]
+  overlay_img = "P1010957.jpg" 
+
+[[item]]
+  overlay_img = "P1010986.jpg" 
 
 +++
