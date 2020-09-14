@@ -9459,7 +9459,7 @@ h2.mb-4 {
   animation-delay: 0.15s; }
 
 .my-widget {
-  height: 100px; }
+  height: 3000px; }
 
 .people-widget .avatar {
   width: 80%;
