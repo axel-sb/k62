@@ -9463,7 +9463,7 @@ h2.mb-4 {
 
 .people-widget .avatar {
   width: 80%;
-  max-width: 100px;
+  max-width: 150px;
   height: auto; }
 
 /* animation ************************************/
@@ -9488,6 +9488,9 @@ i.fas.fa-eye {
     color: #aaaaaa; }
   100% {
     color: #111111; } }
+
+#navbar-main .main-menu-item ul li .nav-link {
+  color: #ffffff; }
 
 /* Create a parallax-like scrolling effect. 
 .parallax {

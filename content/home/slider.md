@@ -10,8 +10,8 @@ weight = 1  # Order that this section will appear.
 interval = 3000
 
 # Slide height (optional).
-height = "430px"
-# "calc(100vh - 70px)"
+height = "calc(100vh - 70px)"
+
     
 
 # Slides.
@@ -36,13 +36,8 @@ height = "430px"
   #cta_icon = "graduation-cap"
 
 [[item]]
-#  title = "Left"
-#  content = "I am left aligned :smile:"
-#  align = "left"
+  overlay_img = "coming_soon.png"  # Image path relative to your `static/media/` folder.
 
-#  overlay_color = "#555"  # An HTML color value.
-  overlay_img = "k360.png"  # Image path relative to your `static/media/` folder.
-#  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
 #  [[item]]
 #    title = "Right"
