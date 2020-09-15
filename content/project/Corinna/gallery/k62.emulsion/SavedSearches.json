@@ -1,0 +1,24 @@
+[
+  {
+    "PARAMS" : [
+      {
+        "searchKey" : "ISO",
+        "comparisonValue" : ">",
+        "mustMatch" : "0",
+        "searchValue" : "800"
+      }
+    ],
+    "Description" : "High ISO"
+  },
+  {
+    "PARAMS" : [
+      {
+        "searchKey" : "ISO",
+        "comparisonValue" : "<",
+        "mustMatch" : "0",
+        "searchValue" : "100"
+      }
+    ],
+    "Description" : "Low ISO"
+  }
+]

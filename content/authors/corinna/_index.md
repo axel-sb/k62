@@ -31,3 +31,5 @@ user_groups:
 - Artists
 ---
 
+{{ <gallery> }}
+

@@ -9492,6 +9492,11 @@ i.fas.fa-eye {
 #navbar-main .main-menu-item ul li .nav-link {
   color: #ffffff; }
 
+.fancybox-toolbar {
+  right: 25px;
+  top: 50px;
+  width: 300px; }
+
 /* Create a parallax-like scrolling effect. 
 .parallax {
   height: 100%;
