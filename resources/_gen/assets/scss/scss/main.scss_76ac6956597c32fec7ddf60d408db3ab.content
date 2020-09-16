@@ -9497,6 +9497,9 @@ i.fas.fa-eye {
   top: 50px;
   width: 300px; }
 
+#mapid {
+  height: 180px; }
+
 /* Create a parallax-like scrolling effect. 
 .parallax {
   height: 100%;

@@ -2,7 +2,7 @@
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:carowae060178@gmail.com"
+    link: "mailto:zazie@zazie.com"
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/zazie/
@@ -12,5 +12,5 @@ social:
 superuser: false
 title: Zazie
 user_groups:
-  - Artists
+  - Artists_aufstrebend
 ---
