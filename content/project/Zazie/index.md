@@ -18,6 +18,20 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
+
+gallery_item:
+- album: gallery
+  image: P1010981.jpg
+  caption: Dunkel wars, der Mond schien helle
+  category: < 100 €
+- album: gallery
+  image: P1010984.jpg
+  caption: Dunkel wars, der Mond schien helle
+  category: < 100 €
+- album: gallery
+  image: P1010986.jpg
+  caption: Dunkel wars, der Mond schien helle
+  category: < 100 €
 ---
 
 {{< gallery >}}

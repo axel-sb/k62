@@ -22,7 +22,7 @@ height = "calc(100vh - 35px)"
   overlay_img = "P1010984.jpg" 
 
 [[item]]
-  overlay_img = "P1010981.jpg" 
+  overlay_img = "P1010981.avif" 
 
 
 

@@ -7,9 +7,10 @@ weight = 1  # Order that this section will appear.
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval = 3000
+interval = false
 
 # Slide height (optional).
+# height = "4000px"
 height = "calc(100vh - 70px)"
 
     
@@ -21,9 +22,12 @@ height = "calc(100vh - 70px)"
   # content = "\"Die Kommune :heart: finde ich sehr gut!\" :thumbsup:"
   align = "center"  # Choose `center`, `left`, or `right`.
 
+# [[item]]
+#  overlay_img = "coming_soon2.png"  # Image path relative to your `static/media/` folder.
+
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#FFF"  # An HTML color value.
+  # overlay_color = "#FFF"  # An HTML color value.
   # overlay_img = "headers/bubbles-wide.jpg"  # Image path relative to your `static/media/` folder.
   # overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
@@ -35,8 +39,7 @@ height = "calc(100vh - 70px)"
   #cta_icon_pack = "fas"
   #cta_icon = "graduation-cap"
 
-[[item]]
-  overlay_img = "coming_soon.png"  # Image path relative to your `static/media/` folder.
+
 
 
 #  [[item]]
