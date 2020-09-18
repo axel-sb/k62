@@ -3233,7 +3233,7 @@ input[type="button"].btn-block {
     display: none; }
 
 .navbar-light .navbar-brand {
-  color: #2B2B2B; }
+  color: #34495E; }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
     color: #0396A6; }
 
@@ -9233,6 +9233,28 @@ div.mermaid {
 html[dir="rtl"] body {
   text-align: right; }
 
+@font-face {
+  font-family: "Typewriter_Condensed";
+  src: url("static/fonts/typewcond_regular.otf"); }
+
+.typewriter {
+  font-family: "Typewriter_Condensed"; }
+
+.navbar-brand {
+  margin: 0 auto;
+  font-family: "Typewriter_Condensed";
+  font-size: 2rem;
+  color: #34495e; }
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-family: "Typewriter_Condensed"; }
+
+.justify-content-start {
+  justify-content: space-around !important;
+  font-size: 1.2rem; }
+
 /*------------------------------------
 - COLOR primary
 ------------------------------------*/
@@ -9489,11 +9511,8 @@ i.fas.fa-eye {
   100% {
     color: #111111; } }
 
-#navbar-main .main-menu-item ul li .nav-link {
-  color: #ffffff; }
-
 .fancybox-toolbar {
-  right: 25px;
+  right: 10px;
   top: 50px;
   width: 300px; }
 
@@ -9531,3 +9550,71 @@ i.fas.fa-eye {
   font-size: 1.1rem;
   color: #b2b2b2; }
 */
+/*************************************************
+ *  Gallery orig..
+
+.gallery {
+  margin: 0.5em -4px 1.5em -4px;
+  font-size: 0; }
+
+a[data-fancybox] {
+  text-decoration: none;
+  cursor: zoom-in; }
+
+.gallery a[data-fancybox] img {
+  height: 250px;
+  width: auto;
+  max-width: inherit;
+  display: inherit;
+  margin: 0;
+  padding: 4px;
+  box-shadow: none;
+  vertical-align: inherit; }
+
+.fancybox-caption {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center; }
+ **************************************************/
+/*************************************************
+ *  Gallery.
+ **************************************************/
+.gallery {
+  margin: 0.5em -4px 1.5em -4px;
+  font-size: 0; }
+
+a[data-fancybox] {
+  text-decoration: none;
+  cursor: zoom-in; }
+
+.gallery a[data-fancybox] img {
+  height: auto !important;
+  width: 320px !important;
+  max-width: inherit;
+  display: inherit;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: inherit; }
+
+.fancybox-caption {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center; }
+
+/* Headings */
+h2, h3, h4, h5, h6 {
+  font-family: Typewriter_Condensed, sans-serif;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizeLegibility;
+  /* Ensure long words do not overflow into content. */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  /* Add a hyphen where the word breaks (use `&shy;` to insert a soft-hyphen in a word). */
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual; }

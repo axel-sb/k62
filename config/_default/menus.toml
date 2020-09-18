@@ -6,32 +6,23 @@
 # [[main]]
 #   name = "Demo"
 #   url = "#hero"
-#   weight = 10
+#   weight = 20
 
 [[main]]
   name = "Artists"
   url = "#people"
-  weight = 20
+  weight = 10
 
 #[[main]]
 #  name = "Projects"
 #  url = "projects"
 #  weight = 30
 
-[[main]]
-   name = "Showcase"
-  url = "slidergalleries/"
-   weight = 40
 
-[[main]]
-  name = "Courses"
-  url = "courses/"
-  weight = 50
-
-[[main]]
-  name = "Galerie"
-  url = "#slider2"
-  weight = 60
+#[[main]]
+#   name = "Galerie"
+#   url = "#slider2"
+#   weight = 60
 
 # [[main]]
 #   name = "Contact"

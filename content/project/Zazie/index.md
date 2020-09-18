@@ -23,15 +23,18 @@ gallery_item:
 - album: gallery
   image: P1010981.jpg
   caption: Dunkel wars, der Mond schien helle
-  category: < 100 €
+  categories: 
+  - unter100
+  tags:
+  - unter100
 - album: gallery
   image: P1010984.jpg
-  caption: Dunkel wars, der Mond schien helle
-  category: < 100 €
+  caption: Sehr schön!
+  category: < 250 €
 - album: gallery
   image: P1010986.jpg
-  caption: Dunkel wars, der Mond schien helle
-  category: < 100 €
+  caption: Mahlzeit!
+  category: alle
 ---
 
 {{< gallery >}}
