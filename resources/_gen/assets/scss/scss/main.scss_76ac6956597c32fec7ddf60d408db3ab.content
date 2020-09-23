@@ -9235,21 +9235,21 @@ html[dir="rtl"] body {
 
 @font-face {
   font-family: "Typewriter_Condensed";
-  src: url("static/fonts/typewcond_regular.otf"); }
+  src: url("/fonts/typewcond_regular.otf"); }
 
 .typewriter {
-  font-family: "Typewriter_Condensed"; }
+  font-family: "Typewriter_Condensed", sans-serif; }
 
 .navbar-brand {
   margin: 0 auto;
-  font-family: "Typewriter_Condensed";
+  font-family: "Typewriter_Condensed", sans-serif;
   font-size: 2rem;
   color: #34495e; }
 
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  font-family: "Typewriter_Condensed"; }
+  font-family: "Typewriter_Condensed", sans-serif; }
 
 .justify-content-start {
   justify-content: space-around !important;
