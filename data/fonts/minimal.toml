@@ -1,0 +1,11 @@
+# Font style metadata
+name = "minimal"
+
+# Optional Google font URL
+google_fonts = "family=Oswald:wght@200;300;400;500;600;700&family=Special+Elite"
+# Font families
+heading_font = "Special Elite"
+body_font = "Oswald"
+nav_font = "Oswald"
+mono_font = "Oswald"
+

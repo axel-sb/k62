@@ -44,7 +44,7 @@ subtitle = ""
   
 [advanced]
  # Custom CSS. 
- css_style = "height: 100%; margin: 40px 0 80px"
+  css_style = "height: 100%; margin: 40px 0 80px; font-family: Oswald;"
  
  # CSS class.
  css_class = ""

@@ -1,66 +1,29 @@
-{{ $ := .root }}
-{{ $page := .page }}
-{{ $bg := $page.Params.design.background }}
+/* RESETS & BASIC PAGE SETUP */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll; }
+body { 
+	background: url(images/background.png) repeat 5% 5%;
+}
+/* END RESET */
 
-{{ if $page.Params.hero_media }}
-<div class="row">
-  <div class="col-md-6 order-md-1 text-center text-md-left">
-{{ end }}
+/* TOOLBOX */
+.floatleft { float: left; }
+.floatright { float: right; }
+.clear { clear: both; }
 
-    <h1 class="hero-title">
-      {{ with $page.Title }}{{ . | markdownify }}{{ end }}
-    </h1>
+/* END TOOLBOX */
 
-    {{ with $page.Content }}
-    <div class="hero-lead">{{ . }}</div>
-    {{ end }}
+/* STRUCTURE AND STUFF */
+#midground {
+	background: url(images/midground.png) repeat 20% 20%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 997;
+}
+#foreground {
+	background: url(images/foreground.png) repeat 90% 110%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 998;
+}
 
-    {{/* Call-to-action link */}}
-    {{ if $page.Params.cta.url }}
-      {{ $pack := or $page.Params.cta.icon_pack "fas" }}
-      {{ $pack_prefix := $pack }}
-      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-        {{ $pack_prefix = "fa" }}
-      {{ end }}
-      {{ $link := $page.Params.cta.url }}
-      {{ $scheme := (urls.Parse $link).Scheme }}
-      {{ $target := "" }}
-      {{ if not $scheme }}
-        {{ $link = $link | relLangURL }}
-      {{ else if in (slice "http" "https") $scheme }}
-        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-      {{ end }}
-    <p class="cta-btns">
-      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="btn {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg">{{ if $page.Params.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}</a>
-
-      {{/* Alternative Call-to-action link */}}
-      {{ if $page.Params.cta_alt.url }}
-        {{ $link := $page.Params.cta_alt.url }}
-        {{ $scheme := (urls.Parse $link).Scheme }}
-        {{ $target := "" }}
-        {{ if not $scheme }}
-          {{ $link = $link | relLangURL }}
-        {{ else if in (slice "http" "https") $scheme }}
-          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-        {{ end }}
-      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="hero-cta-alt pl-4">{{ $page.Params.cta_alt.label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right"></i></a>
-      {{ end }}
-    </p>
-    {{ end }}
-
-    {{/* Call-to-action note */}}
-    {{ with $page.Params.cta_note }}
-    <p class="hero-note text-muted mb-0">
-      {{ .label | markdownify | emojify | safeHTML }}
-    </p>
-    {{ end }}
-
-  {{/* Hero image */}}
-  {{ if $page.Params.hero_media }}
-    {{ $media_dir := $.Scratch.Get "media_dir" }}
-  </div>
-  <div class="col-6 mx-auto col-md-6 order-md-2 hero-media">
-    <img src="{{ printf "%s/%s" $media_dir $page.Params.hero_media | relURL }}" alt="">
-  </div>
-</div>
-{{ end }}

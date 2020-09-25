@@ -7147,7 +7147,7 @@ a.text-dark:hover, a.text-dark:focus {
  *  Academic's Core
  **************************************************/
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 16.17px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65; }
@@ -7207,7 +7207,7 @@ ul.task-list li input[type="checkbox"] {
 
 /* Navigation bar text */
 .navbar-light {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility; }
@@ -7302,7 +7302,7 @@ figcaption.numbered {
 
 pre,
 code {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Oswald", monospace;
   color: #c7254e;
   /* Match bg of default highlight theme. */
   background-color: #f8f8f8; }
@@ -9234,25 +9234,50 @@ html[dir="rtl"] body {
   text-align: right; }
 
 @font-face {
-  font-family: "Typewriter_Condensed";
+  font-family: "trc";
   src: url("/fonts/typewcond_regular.otf"); }
 
-.typewriter {
-  font-family: "Typewriter_Condensed", sans-serif; }
+h1 {
+  font-family: "Special Elite", sans-serif;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual; }
+
+.navbar-light .navbar-brand {
+  font-family: Oswald, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #8d99a6; }
 
 .navbar-brand {
   margin: 0 auto;
-  font-family: "Typewriter_Condensed", sans-serif;
-  font-size: 2rem;
-  color: #34495e; }
+  font-family: Oswald, sans-serif;
+  font-size: 1.6rem;
+  color: #6e8296;
+  display: flex; }
+
+.navbar .navbar-nav .nav-link {
+  color: #8D99A6; }
 
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  font-family: "Typewriter_Condensed", sans-serif; }
+  font-family: Oswald, sans-serif;
+  font-size: 1.5rem; }
+
+#navbar-main .main-menu-item ul li .nav-link {
+  color: #2f3b46; }
 
 .justify-content-start {
-  justify-content: space-around !important;
   font-size: 1.2rem; }
 
 /*------------------------------------
@@ -9410,15 +9435,15 @@ btn btn-primary btn-lg active {
   background-color: !important; }
 
 .hero-title {
-  font-family: 'Special Elite', 'Courier New', monospace, sans-serif;
-  color: #242424;
+  font-family: 'Special Elite', sans-serif;
+  color: h2f3b46;
   font-weight: 400 !important;
   font-size: 2.8rem !important;
   margin-top: 0;
   line-height: 3; }
 
 .hero-lead {
-  font-family: Oswald, monospace, sans-serif;
+  font-family: Oswald,space, sans-serif;
   color: #242424;
   font-size: 1rem !important;
   max-width: 768px;
@@ -9450,7 +9475,7 @@ btn btn-primary btn-lg active {
 .wg-hero.dark .hero-lead,
 .wg-hero.dark .hero-cta-alt,
 .wg-hero.dark .hero-note > * {
-  color: #111;
+  color: #2f3b46;
   /*text-shadow: 1px 1px 4px rgba(0,0,0,0.5);*/
   /* Uncomment to standout on complicated backgrounds. */ }
 
@@ -9479,6 +9504,21 @@ h2.mb-4 {
   padding: 10px 0 10px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s; }
+
+.people-widget .portrait-title h2 {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-weight: 300; }
+
+#people_artists.home-section.wg-people {
+  height: 100%;
+  margin: 40px 0 80px;
+  background-color: #f7f7f7; }
+
+#people_aufstrebend.home-section.wg-people {
+  height: 100%;
+  margin: 40px 0 80px;
+  background-color: #f7f7f7; }
 
 .my-widget {
   height: 3000px; }
@@ -9519,6 +9559,62 @@ i.fas.fa-eye {
 #mapid {
   height: 180px; }
 
+/*************************************************
+ *  People widget
+ **************************************************/
+.people-widget {
+  font-size: 1.5rem;
+  text-align: center; }
+
+.people-widget .portrait-title h2 {
+  font-size: 1rem; }
+
+.people-widget .portrait-title h3 {
+  font-size: 0.7rem; }
+
+.people-widget .avatar {
+  width: 80%;
+  max-width: 150px;
+  height: auto; }
+
+@media (min-width: 576px) {
+  .people-widget .col-sm-auto {
+    width: 30%; } }
+
+@media (min-width: 992px) {
+  .people-widget .col-sm-auto {
+    width: 20%; } }
+
+/*************************************************
+ *  Contact
+ **************************************************/
+.contact-widget .fa-ul {
+  margin-left: 3.14285714rem;
+  font-family: Oswald !important;
+  /* Must be > `fa-2x` icon size. */ }
+
+.contact-widget .fa-li {
+  position: absolute;
+  left: -3.14285714rem;
+  /* Negative of `.contact-widget .fa-ul` margin. */
+  width: 2rem;
+  /* Match `fa-2x` icon size. */
+  top: 0.14285714em;
+  /* Default FA value. */
+  text-align: center; }
+
+.contact-widget li {
+  padding-top: 0.8rem;
+  /* Align text with bottom of `fa-2x` icon. */
+  margin-bottom: 0.3rem; }
+
+.contact-widget li:last-of-type {
+  margin-bottom: 0; }
+
+#map {
+  height: 350px;
+  width: 100%; }
+
 /* Create a parallax-like scrolling effect. 
 .parallax {
   height: 100%;
@@ -9550,7 +9646,7 @@ i.fas.fa-eye {
   font-size: 1.1rem;
   color: #b2b2b2; }
 */
-/*************************************************
+/************************************************
  *  Gallery orig..
 
 .gallery {
@@ -9604,7 +9700,7 @@ a[data-fancybox] {
 
 /* Headings */
 h2, h3, h4, h5, h6 {
-  font-family: Typewriter_Condensed, sans-serif;
+  font-family: Oswald, sans-serif;
   margin-top: 1rem;
   margin-bottom: .5rem;
   line-height: 1.25;
@@ -9624,3 +9720,48 @@ h2, h3, h4, h5, h6 {
 
 #person-address {
   font-size: medium; }
+
+#contact {
+  font-family: Oswald; }
+
+/* RESETS & BASIC PAGE SETUP */
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  overflow-y: scroll; }
+
+body {
+  background: url(images/background.png) repeat 5% 5%; }
+
+/* END RESET */
+/* TOOLBOX */
+.floatleft {
+  float: left; }
+
+.floatright {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+/* END TOOLBOX */
+/* STRUCTURE AND STUFF */
+#midground {
+  background: url(images/midground.png) repeat 20% 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 997; }
+
+#foreground {
+  background: url(images/foreground.png) repeat 90% 110%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 998; }

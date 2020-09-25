@@ -2,10 +2,10 @@
 name = "Minimal"
 
 # Optional Google font URL
-google_fonts = "Special+Elite|Roboto:400,400italic,700|Roboto+Mono"
+google_fonts = "Special+Elite, sans-serif"
 
 # Font families
 heading_font = "Special Elite"
-body_font = "Roboto"
-nav_font = "Roboto"
-mono_font = "Roboto Mono"
+body_font = 'Ubuntu Condensed'
+nav_font = 'Ubuntu Condensed'
+mono_font = 'Ubuntu Condensed'

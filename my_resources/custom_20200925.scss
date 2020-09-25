@@ -1,0 +1,621 @@
+@font-face {
+  font-family: "trc";
+  src: url("/fonts/typewcond_regular.otf");
+}
+
+typewcond_regular.otf
+
+h1 {
+  font-family: "Special Elite", sans-serif;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}
+
+.navbar-light .navbar-brand {
+  font-family: Oswald, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #8d99a6;
+}
+
+.navbar-brand {
+  margin: 0 auto;
+  font-family: Oswald, sans-serif;
+  font-size: 1.6rem;
+  color:#6e8296;
+  display: flex;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #8D99A6;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-family: Oswald, sans-serif;
+  font-size: 1.5rem;
+}
+
+#navbar-main .main-menu-item ul li .nav-link {
+  color: #2f3b46;
+}
+
+.justify-content-start {
+  
+  font-size: 1.2rem;
+}
+
+/*------------------------------------
+- COLOR primary
+------------------------------------*/
+
+$primary_t1: #607990;
+$primary_t2: #4b5f71;
+$primary_t3: #bbc7d2;
+$primary_t4: #cbd4dc;
+$primary_t5: #2f3b46;
+$primary_t6: #455768;
+$primary_t7: #51677a;
+$primary_t8: #1a2127;
+$primary_t9: #d7dee4;
+
+$primary_shadow: rgba(96, 121, 144, 0.5);
+$primary_text_color_dark_bright: #fff;
+
+
+.alert-primary {
+  color: $primary_t5;
+  background-color: $primary_t9;
+  border-color: $primary_t4;
+}
+
+.alert-primary hr {
+  border-top-color: $primary_t3;
+}
+
+.alert-primary .alert-link {
+  color: $primary_t8;
+}
+
+.badge-primary {
+  color: $primary_text_color_dark_bright;
+  background-color: $primary_t1;
+}
+
+.badge-primary[href]:hover, .badge-primary[href]:focus {
+  color: $primary_text_color_dark_bright;
+  background-color: $primary_t2;
+}
+
+.bg-primary {
+  background-color: $primary_t1 !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: $primary_t2 !important; 
+}
+
+.border-primary {
+  border-color: $primary_t1 !important;
+}
+
+.btn-primary {
+  color: $primary_text_color_dark_bright;
+  background-color: $primary_t1;
+  border-color: $primary_t1;
+}
+
+.btn-primary:hover {
+  color: $primary_text_color_dark_bright;
+  background-color: $primary_t7;
+  border-color: $primary_t2;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem $primary_shadow;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: $primary_text_color_dark_bright;
+  background-color: $primary_t1;
+  border-color: $primary_t1;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: $primary_text_color_dark_bright;
+  background-color: $primary_t2;
+  border-color: $primary_t6;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $primary_shadow;
+}
+
+.btn-outline-primary {
+  color: $primary_t1;
+  background-color: transparent;
+  border-color: $primary_t1;
+}
+
+.btn-outline-primary:hover {
+  color: $primary_text_color_dark_bright;
+  background-color: $primary_t1;
+  border-color: $primary_t1;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem $primary_shadow;
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: $primary_t1;
+  background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+  color: $primary_text_color_dark_bright;
+  background-color: $primary_t1;
+  border-color: $primary_t1;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $primary_shadow;
+}
+
+.list-group-item-primary {
+  color: $primary_t5;
+  background-color: $primary_t4;
+}
+
+.list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
+  color: $primary_t5;
+  background-color: $primary_t3;
+}
+
+.list-group-item-primary.list-group-item-action.active {
+  color: $primary_text_color_dark_bright;
+  background-color: $primary_t2;
+  border-color: $primary_t5;
+}
+
+.table-primary,
+.table-primary > th,
+.table-primary > td {
+  background-color: $primary_t4;
+}
+
+.table-hover .table-primary:hover {
+  background-color: $primary_t3;
+}
+
+.table-hover .table-primary:hover > td,
+.table-hover .table-primary:hover > th {
+  background-color: $primary_t3;
+}
+
+.text-primary {
+  color: $primary_t1 !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+  color: $primary_t2 !important;
+}
+
+    
+a {
+  color: $primary_t5;
+  text-decoration: none;
+  background-color: transparent; }
+  a:hover {
+    color: $primary_t5;
+    text-decoration: underline; }
+
+.dark a,
+.dark h3.article-title a:hover {
+  color: primary_t3; }
+
+.dark a:hover,
+.dark a:focus {
+  color: primary_t3; }
+
+
+
+a,
+h3.article-title a:hover {
+  color: $primary_t5;
+  text-decoration: none;
+  transition: color 0.6s ease; }
+
+a:hover,
+a:focus {
+  color: $primary_t5; }
+
+.dark a,
+.dark h3.article-title a:hover {
+  color: primary_t3; }
+
+.dark a:hover,
+.dark a:focus {
+  color: primary_t3; }
+
+btn btn-primary btn-lg active {
+  color: primary_t5 !important;
+  background-color: !important;
+}
+
+.hero-title {
+  font-family: 'Special Elite', sans-serif;
+  color: h2f3b46;
+  font-weight: 400 !important;
+  font-size: 2.8rem !important;
+  margin-top: 0;
+  line-height: 3;
+}
+
+.hero-lead {
+  font-family: Oswald,space, sans-serif;
+  color: rgb(36, 36, 36);
+  font-size: 1rem !important;
+  max-width: 768px;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}
+
+.wg-hero.dark .btn {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'Courier New';
+  padding-right: 10px;
+  height: 50vh;
+  width: 50vw;
+}
+
+.wg-hero .btn-lg, .wg-hero .btn-group-lg>.btn {
+  font-size: 1rem;
+}
+
+.wg-hero .btn {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'Courier New';
+  padding-right: 10px;
+  height: 50vh;
+  width: 50vw;
+}
+
+.wg-hero.dark .hero-title,
+.wg-hero.dark .hero-lead,
+.wg-hero.dark .hero-cta-alt,
+.wg-hero.dark .hero-note > * {
+  color: #2f3b46;
+  /*text-shadow: 1px 1px 4px rgba(0,0,0,0.5);*/
+  /* Uncomment to standout on complicated backgrounds. */ }
+
+
+/*
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: no-repeat 50% / 100% 100%; }
+*/
+
+.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:focus {
+  background-color: #313d4f !important; }
+
+.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary.active {
+  background-color: #6079909a !important; }
+
+
+h2.mb-4 {
+  display: none;
+}
+
+.home-section {
+  position: relative;
+  background-color: white;
+  padding: 10px 0 10px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
+.my-widget {
+  height: 3000px;
+  }
+
+.people-widget .avatar {
+    width: 80%;
+    max-width: 150px;
+    height: auto;
+}
+
+  /* animation ************************************/
+  .element {
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #001F3F;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  }
+
+  i.fas.fa-eye {
+  width: 100%;
+  height: 100%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: #111111;
+  }
+  50% {
+    color: #aaaaaa;
+  }
+  100% {
+    color: #111111;
+  }
+}
+
+.fancybox-toolbar {
+    right: 10px;
+    top: 50px;
+    width: 300px;           
+}
+
+#mapid { height: 180px; }
+
+/*************************************************
+ *  People widget
+ **************************************************/
+ .people-widget {
+  font-size: 1.5rem;
+  text-align: center; }
+
+.people-widget .portrait-title h2 {
+  font-size: 1rem; }
+
+.people-widget .portrait-title h3 {
+  font-size: 0.7rem; }
+
+.people-widget .avatar {
+  width: 80%;
+  max-width: 150px;
+  height: auto; }
+
+@media (min-width: 576px) {
+  .people-widget .col-sm-auto {
+    width: 30%; } }
+
+@media (min-width: 992px) {
+  .people-widget .col-sm-auto {
+    width: 20%; } }
+
+/*************************************************
+ *  Contact
+ **************************************************/
+.contact-widget .fa-ul {
+  margin-left: 3.14285714rem;
+  font-family: Oswald !important;
+  /* Must be > `fa-2x` icon size. */ }
+
+.contact-widget .fa-li {
+  position: absolute;
+  left: -3.14285714rem;
+  /* Negative of `.contact-widget .fa-ul` margin. */
+  width: 2rem;
+  /* Match `fa-2x` icon size. */
+  top: 0.14285714em;
+  /* Default FA value. */
+  text-align: center; }
+
+.contact-widget li {
+  padding-top: 0.8rem;
+  /* Align text with bottom of `fa-2x` icon. */
+  margin-bottom: 0.3rem; }
+
+.contact-widget li:last-of-type {
+  margin-bottom: 0; }
+
+#map {
+  height: 350px;
+  width: 100%; }
+
+
+/* Create a parallax-like scrolling effect. 
+.parallax {
+  height: 100%;
+  background-attachment: fixed; }
+
+.home-section:first-of-type {
+  padding-top: 50px; }
+
+.home-section:nth-of-type(even) {
+  background-color: #f7f7f7; }
+
+.dark .home-section {
+  background-color: #272935; }
+
+.dark .home-section:nth-of-type(even) {
+  background-color: #23252f; }
+
+@media screen and (max-width: 768px) {
+  .home-section {
+    padding: 60px 0 60px 0; }
+  .home-section:first-of-type {
+    padding-top: 40px; } }
+
+.section-heading h1 {
+  margin: 0 0 10px 0; }
+
+.section-heading p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #b2b2b2; }
+*/
+
+
+/************************************************
+ *  Gallery orig..
+
+.gallery {
+  margin: 0.5em -4px 1.5em -4px;
+  font-size: 0; }
+
+a[data-fancybox] {
+  text-decoration: none;
+  cursor: zoom-in; }
+
+.gallery a[data-fancybox] img {
+  height: 250px;
+  width: auto;
+  max-width: inherit;
+  display: inherit;
+  margin: 0;
+  padding: 4px;
+  box-shadow: none;
+  vertical-align: inherit; }
+
+.fancybox-caption {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center; }
+ **************************************************/
+
+/*************************************************
+ *  Gallery.
+ **************************************************/
+ .gallery {
+  margin: 0.5em -4px 1.5em -4px;
+  font-size: 0; }
+
+a[data-fancybox] {
+  text-decoration: none;
+  cursor: zoom-in; }
+
+  .gallery a[data-fancybox] img {
+    height: auto !important;
+    width: 320px !important;
+    max-width: inherit;
+    display: inherit;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: inherit; }
+
+.fancybox-caption {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center; }
+
+
+/* Headings */
+h2, h3, h4, h5, h6 {
+  font-family: Oswald, sans-serif;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizeLegibility;
+  /* Ensure long words do not overflow into content. */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  /* Add a hyphen where the word breaks (use `&shy;` to insert a soft-hyphen in a word). */
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+  }
+
+  #person-telephone {
+    font-size: medium;
+  }
+
+  #person-address {
+    font-size: medium;
+  }
+
+  #contact {
+    font-family: Oswald;
+  }
+
+  /* RESETS & BASIC PAGE SETUP */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll; }
+body { 
+	background: url(images/background.png) repeat 5% 5%;
+}
+/* END RESET */
+
+/* TOOLBOX */
+.floatleft { float: left; }
+.floatright { float: right; }
+.clear { clear: both; }
+
+/* END TOOLBOX */
+
+/* STRUCTURE AND STUFF */
+#midground {
+	background: url(images/midground.png) repeat 20% 20%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 997;
+}
+#foreground {
+	background: url(images/foreground.png) repeat 90% 110%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 998;
+}
+
+#people_artists.home-section.wg-people {
+  height: 100%; 
+  margin: 40px 0 80px;
+  background-color: #f7f7f7;
+} 
+
+#people_aufstrebend.home-section.wg-people {
+  height: 100%; 
+  margin: 40px 0 80px;
+  background-color: #f7f7f7;
+} 
+
+.home-section {
+  position: relative;
+  background-color: #fff;
+  padding: 10px 0 10px 0;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
+.people-widget .portrait-title h2 {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-weight: 300;
+}
