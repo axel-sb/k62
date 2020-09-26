@@ -1,10 +1,11 @@
 # Font style metadata
-name = "my_font_set"
+name = "minimal"
 
 # Optional Google font URL
-google_fonts = "family=Oswald:wght@200&family=Special+Elite"
+google_fonts = "family=Oswald:wght@200;300;400;500;600;700&family=Special+Elite"
 # Font families
 heading_font = "Special Elite"
-body_font = "Oswald"
-nav_font = "Oswald"
-mono_font = "Oswald"
+body_font = "trcd"
+nav_font = "trcd"
+mono_font = "trcd"
+

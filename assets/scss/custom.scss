@@ -1,10 +1,15 @@
 @font-face {
-  font-family: "trc";
-  src: url("/fonts/typewcond_regular.otf");
+  font-family: "trcd";
+  src: url("/fonts/typewcond_demi.otf");
+}
+
+@font-face {
+  font-family: "qwerty";
+  src: url("/fonts/qwerty.otf");
 }
 
 h1 {
-  font-family: "Special Elite", sans-serif;
+  font-family: "qwerty", sans-serif;
   font-weight: 400;
   margin-top: 1rem;
   margin-bottom: .5rem;
@@ -20,7 +25,7 @@ h1 {
 }
 
 .navbar-light .navbar-brand {
-  font-family: Oswald, sans-serif;
+  font-family: trcd, sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
   color: #8d99a6;
@@ -28,7 +33,7 @@ h1 {
 
 .navbar-brand {
   margin: 0 auto;
-  font-family: Oswald, sans-serif;
+  font-family: trcd, sans-serif;
   font-size: 1.6rem;
   color:#6e8296;
   display: flex;
@@ -41,7 +46,7 @@ h1 {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  font-family: Oswald, sans-serif;
+  font-family: trcd, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -251,11 +256,11 @@ a:focus {
 
 btn btn-primary btn-lg active {
   color: primary_t5 !important;
-  background-color: !important;
+  background-color: #fff !important;
 }
 
 .hero-title {
-  font-family: 'Special Elite', sans-serif;
+  font-family: 'qwerty', sans-serif;
   color: h2f3b46;
   font-weight: 400 !important;
   font-size: 2.8rem !important;
@@ -264,7 +269,7 @@ btn btn-primary btn-lg active {
 }
 
 .hero-lead {
-  font-family: Oswald,space, sans-serif;
+  font-family: trcd,space, sans-serif;
   color: rgb(36, 36, 36);
   font-size: 1rem !important;
   max-width: 768px;
@@ -346,6 +351,7 @@ h2.mb-4 {
   height: 100%; 
   margin: 40px 0 80px;
   background-color: #f7f7f7;
+  font-size: 1.5rem;
 } 
 
 #people_aufstrebend.home-section.wg-people {
@@ -413,7 +419,7 @@ h2.mb-4 {
   text-align: center; }
 
 .people-widget .portrait-title h2 {
-  font-size: 1rem; }
+}
 
 .people-widget .portrait-title h3 {
   font-size: 0.7rem; }
@@ -436,7 +442,7 @@ h2.mb-4 {
  **************************************************/
 .contact-widget .fa-ul {
   margin-left: 3.14285714rem;
-  font-family: Oswald !important;
+  font-family: trcd !important;
   /* Must be > `fa-2x` icon size. */ }
 
 .contact-widget .fa-li {
@@ -551,7 +557,7 @@ a[data-fancybox] {
 
 /* Headings */
 h2, h3, h4, h5, h6 {
-  font-family: Oswald, sans-serif;
+  font-family: trcd, sans-serif;
   margin-top: 1rem;
   margin-bottom: .5rem;
   line-height: 1.25;
@@ -576,35 +582,6 @@ h2, h3, h4, h5, h6 {
   }
 
   #contact {
-    font-family: Oswald;
+    font-family: trcd;
   }
-
-  /* RESETS & BASIC PAGE SETUP */
-* { margin: 0; padding: 0; }
-html { overflow-y: scroll; }
-body { 
-	background: url(images/background.png) repeat 5% 5%;
-}
-/* END RESET */
-
-/* TOOLBOX */
-.floatleft { float: left; }
-.floatright { float: right; }
-.clear { clear: both; }
-
-/* END TOOLBOX */
-
-/* STRUCTURE AND STUFF */
-#midground {
-	background: url(images/midground.png) repeat 20% 20%;
-	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 997;
-}
-#foreground {
-	background: url(images/foreground.png) repeat 90% 110%;
-	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 998;
-}
 

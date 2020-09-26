@@ -3,7 +3,7 @@
 widget = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 1  # Order that this section will appear.
+weight = 11  # Order that this section will appear.
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
@@ -21,9 +21,10 @@ height = "calc(100vh - 70px)"
   title = "Kommune 62"
   # content = "\"Die Kommune :heart: finde ich sehr gut!\" :thumbsup:"
   align = "center"  # Choose `center`, `left`, or `right`.
+  overlay_img = "k62_title.svg"
 
 # [[item]]
-#  overlay_img = "coming_soon2.png"  # Image path relative to your `static/media/` folder.
+# overlay_img = "background.png"  # Image path relative to your `static/media/` folder.
 
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
@@ -75,3 +76,4 @@ height = "calc(100vh - 70px)"
 #    #cta_icon = "graduation-cap"
 
 +++
+{{< figure library="true" src="media/k62_title.svg" >}}

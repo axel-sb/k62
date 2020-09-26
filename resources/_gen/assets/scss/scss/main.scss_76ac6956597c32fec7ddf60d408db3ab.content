@@ -7147,7 +7147,7 @@ a.text-dark:hover, a.text-dark:focus {
  *  Academic's Core
  **************************************************/
 html {
-  font-family: "Oswald", sans-serif;
+  font-family: "trcd", sans-serif;
   font-size: 16.17px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65; }
@@ -7207,14 +7207,14 @@ ul.task-list li input[type="checkbox"] {
 
 /* Navigation bar text */
 .navbar-light {
-  font-family: "Oswald", sans-serif;
+  font-family: "trcd", sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Special Elite", sans-serif;
+  font-family: "qwerty", sans-serif;
   font-weight: 400;
   margin-top: 1rem;
   margin-bottom: .5rem;
@@ -7302,7 +7302,7 @@ figcaption.numbered {
 
 pre,
 code {
-  font-family: "Oswald", monospace;
+  font-family: "trcd", monospace;
   color: #c7254e;
   /* Match bg of default highlight theme. */
   background-color: #f8f8f8; }
@@ -9234,11 +9234,15 @@ html[dir="rtl"] body {
   text-align: right; }
 
 @font-face {
-  font-family: "trc";
-  src: url("/fonts/typewcond_regular.otf"); }
+  font-family: "trcd";
+  src: url("/fonts/typewcond_demi.otf"); }
+
+@font-face {
+  font-family: "qwerty";
+  src: url("/fonts/qwerty.otf"); }
 
 h1 {
-  font-family: "Special Elite", sans-serif;
+  font-family: "qwerty", sans-serif;
   font-weight: 400;
   margin-top: 1rem;
   margin-bottom: .5rem;
@@ -9253,14 +9257,14 @@ h1 {
   hyphens: manual; }
 
 .navbar-light .navbar-brand {
-  font-family: Oswald, sans-serif;
+  font-family: trcd, sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
   color: #8d99a6; }
 
 .navbar-brand {
   margin: 0 auto;
-  font-family: Oswald, sans-serif;
+  font-family: trcd, sans-serif;
   font-size: 1.6rem;
   color: #6e8296;
   display: flex; }
@@ -9271,7 +9275,7 @@ h1 {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  font-family: Oswald, sans-serif;
+  font-family: trcd, sans-serif;
   font-size: 1.5rem; }
 
 #navbar-main .main-menu-item ul li .nav-link {
@@ -9432,10 +9436,10 @@ a:focus {
 
 btn btn-primary btn-lg active {
   color: primary_t5 !important;
-  background-color: !important; }
+  background-color: #fff !important; }
 
 .hero-title {
-  font-family: 'Special Elite', sans-serif;
+  font-family: 'qwerty', sans-serif;
   color: h2f3b46;
   font-weight: 400 !important;
   font-size: 2.8rem !important;
@@ -9443,7 +9447,7 @@ btn btn-primary btn-lg active {
   line-height: 3; }
 
 .hero-lead {
-  font-family: Oswald,space, sans-serif;
+  font-family: trcd,space, sans-serif;
   color: #242424;
   font-size: 1rem !important;
   max-width: 768px;
@@ -9513,7 +9517,8 @@ h2.mb-4 {
 #people_artists.home-section.wg-people {
   height: 100%;
   margin: 40px 0 80px;
-  background-color: #f7f7f7; }
+  background-color: #f7f7f7;
+  font-size: 1.5rem; }
 
 #people_aufstrebend.home-section.wg-people {
   height: 100%;
@@ -9566,9 +9571,6 @@ i.fas.fa-eye {
   font-size: 1.5rem;
   text-align: center; }
 
-.people-widget .portrait-title h2 {
-  font-size: 1rem; }
-
 .people-widget .portrait-title h3 {
   font-size: 0.7rem; }
 
@@ -9590,7 +9592,7 @@ i.fas.fa-eye {
  **************************************************/
 .contact-widget .fa-ul {
   margin-left: 3.14285714rem;
-  font-family: Oswald !important;
+  font-family: trcd !important;
   /* Must be > `fa-2x` icon size. */ }
 
 .contact-widget .fa-li {
@@ -9700,7 +9702,7 @@ a[data-fancybox] {
 
 /* Headings */
 h2, h3, h4, h5, h6 {
-  font-family: Oswald, sans-serif;
+  font-family: trcd, sans-serif;
   margin-top: 1rem;
   margin-bottom: .5rem;
   line-height: 1.25;
@@ -9722,46 +9724,4 @@ h2, h3, h4, h5, h6 {
   font-size: medium; }
 
 #contact {
-  font-family: Oswald; }
-
-/* RESETS & BASIC PAGE SETUP */
-* {
-  margin: 0;
-  padding: 0; }
-
-html {
-  overflow-y: scroll; }
-
-body {
-  background: url(images/background.png) repeat 5% 5%; }
-
-/* END RESET */
-/* TOOLBOX */
-.floatleft {
-  float: left; }
-
-.floatright {
-  float: right; }
-
-.clear {
-  clear: both; }
-
-/* END TOOLBOX */
-/* STRUCTURE AND STUFF */
-#midground {
-  background: url(images/midground.png) repeat 20% 20%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 997; }
-
-#foreground {
-  background: url(images/foreground.png) repeat 90% 110%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 998; }
+  font-family: trcd; }
