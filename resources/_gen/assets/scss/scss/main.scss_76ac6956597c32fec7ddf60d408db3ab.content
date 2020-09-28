@@ -9793,11 +9793,9 @@ h2, h3, h4, h5, h6 {
 .landing-svg {
   width: 75%;
   max-width: 800px;
-  height: 100vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1em;
   background-image: url(hero.svg); }
 
 .landing-svg2 {
