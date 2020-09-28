@@ -9793,10 +9793,25 @@ h2, h3, h4, h5, h6 {
 .landing-svg {
   width: 75%;
   max-width: 800px;
+  height: 100vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1em; }
+  padding-top: 1em;
+  background-image: url(hero.svg); }
+
+.landing-svg2 {
+  width: 90%;
+  max-width: 800px;
+  height: 100vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(hero.svg);
+  background-repeat: no-repeat;
+  background-position-y: 40%;
+  background-position-x: center;
+  background-image: url(http://localhost:1313/css/hero.svg); }
 
 .navbar-brand img {
   width: auto;
