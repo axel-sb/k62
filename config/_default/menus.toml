@@ -10,7 +10,7 @@
   weight = 15
 
 [[main]]
-  name = "Landing Page"  # Title of the link.
+  name = "LP"  # Title of the link.
   url = "landing/"  # Widget Page folder name.
   weight = 20  # Position of the link in the navigation bar.
 
@@ -18,6 +18,11 @@
   name = "Grid"  # Title of the link.
   url = "grid/"  # Widget Page folder name.
   weight = 30  # Position of the link in the navigation bar.  
+
+[[main]]
+  name = "LP2"  # Title of the link.
+  url = "landing2/"  # Widget Page folder name.
+  weight = 40  # Position of the link in the navigation bar.  
 
 #[[main]]
 #  name = "Projects"
