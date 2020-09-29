@@ -1,6 +1,6 @@
 @font-face {
   font-family: "trcd";
-  src: url("/fonts/typewcond_demi.otf");
+  src: url("/fonts/typewcond_regular-webfont.woff2");
 }
 
 @font-face {
@@ -55,41 +55,42 @@ h1 {
 }
 */
 .navbar-light .navbar-brand {
-  font-family: trcd, sans-serif;
+  font-family: trcd, sans-serif !important;
   font-size: 1.6rem;
   font-weight: 500;
   color: #8d99a6;
 }
-/*
+
 .navbar-brand {
   margin: 0 auto;
-  font-family: trcd, sans-serif;
+  font-family: trcd, sans-serif !important;
   font-size: 1.6rem;
   color:#8d99a6;
   display: flex;
 }
-*/
+
 .navbar .navbar-nav .nav-link {
+  font-family: trcd, sans-serif !important;
   color: #8d99a6;
 }
 
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  font-family: trcd, sans-serif;
+  font-family: trcd, sans-serif !important;
   font-size: 1.5rem;
 }
 
 #navbar-main .main-menu-item ul li .nav-link {
   color: #8d99a6;
   margin-left: 10%;
-  font-family: trcd;
+  font-family: trcd, sans-serif !important;
   font-size: 1.2rem;
   padding-top: 13%;
 }
 
 .navbar .navbar-nav .nav-link.active {
-    font-weight: bold !important;
+    font-family: trcd, sans-serif !important;
     color: #f43135 !important;
 }
 
@@ -258,6 +259,7 @@ a.text-primary:hover, a.text-primary:focus {
 
     
 a {
+  font-family: trcd, sans-serif;
   color: $primary_t5;
   text-decoration: none;
   background-color: transparent; }

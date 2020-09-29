@@ -1,0 +1,29 @@
+$icon-logo = "\ea01"
+
+@font-face
+  font-family: "k62"
+  src: url("../font/k62.eot")
+  src: url("../font/k62.eot?h4kl49#iefix") format("embedded-opentype"), url("../font/k62.woff2?h4kl49") format("woff2"), url("../font/k62.woff?h4kl49") format("woff"), url("../font/k62.ttf?h4kl49") format("truetype"), url("../font/k62.svg?h4kl49#k62") format("svg")
+  font-style: normal
+  font-weight: 400
+
+$icon
+  display: inline-block
+  font-family: "k62" !important
+  font-style: normal !important
+  font-weight: normal !important
+  font-variant: normal !important
+  text-transform: none !important
+  speak: none
+  line-height: 1
+  vertical-align: -.125em
+  text-rendering: auto
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.icon
+  @extend $icon
+
+.icon-logo::before
+  content: "\ea01"
+
