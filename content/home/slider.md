@@ -2,7 +2,7 @@
 # Slider widget.
 widget = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 11  # Order that this section will appear.
 
 # Slide interval.
@@ -26,11 +26,11 @@ height = "calc(100vh - 70px)"
 # Uncomment to use custom SVG icons.
 # Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
 # Reference the SVG icon name (without `.svg` extension) in the `icon` field.
-[[feature]]
- icon = "hero"
- icon_pack = "custom"
- name = "Art for people who know the value of everything and the price of nothing"
- description = "Unbezahlbar."
+# [[feature]]
+# icon = "hero"
+# icon_pack = "custom"
+# name = "Art for people who know the value of everything and the price of nothing"
+# description = "Unbezahlbar."
 
 # [[item]]
 # overlay_img = "background.png"  # Image path relative to your `static/media/` folder.

@@ -86,7 +86,7 @@ h1 {
   margin-left: 10%;
   font-family: trcd, sans-serif !important;
   font-size: 1.2rem;
-  padding-top: 13%;
+  padding-top: 0;
 }
 
 .navbar .navbar-nav .nav-link.active {
@@ -418,10 +418,10 @@ h2.mb-4 {
 
 
 #people_aufstrebend.home-section.wg-people {
-  height: 100%; 
+  height: 100%;
   margin: 40px 0 80px;
   background-color: #f7f7f7;
-} 
+  font-size: 1.8em; }
 
 
 .my-widget {
