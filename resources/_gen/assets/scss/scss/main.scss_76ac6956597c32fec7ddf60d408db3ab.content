@@ -9563,16 +9563,16 @@ h2.mb-4 {
   animation: intro 0.3s both;
   animation-delay: 0.15s; }
 
-.people-widget .portrait-title h2 {
-  font-size: 1.5rem;
-  line-height: 1.8rem;
-  font-weight: 300; }
-
 #people_artists.home-section.wg-people {
   height: 100%;
   margin: 40px 0 80px;
   background-color: #f7f7f7;
-  font-size: 1.5rem; }
+  font-size: 1.8em; }
+
+.people-widget .portrait-title h2 {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-weight: 300; }
 
 #people_aufstrebend.home-section.wg-people {
   height: 100%;
@@ -9586,6 +9586,14 @@ h2.mb-4 {
   width: 80%;
   max-width: 150px;
   height: auto; }
+
+@media (min-width: 576px) {
+  .people-widget .col-sm-auto {
+    width: 60%; } }
+
+@media (min-width: 992px) {
+  .people-widget .col-sm-auto {
+    width: 30%; } }
 
 /* animation ************************************/
 .element {
@@ -9754,23 +9762,26 @@ a[data-fancybox] {
   line-height: 1.5rem;
   text-align: center; }
 
-/* Headings */
-h2, h3, h4, h5, h6 {
-  font-family: trcd, sans-serif;
-  color: #000;
+/* Headings 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "qwerty", sans-serif;
+  font-weight: 400;
   margin-top: 1rem;
   margin-bottom: .5rem;
   line-height: 1.25;
+  color: #313131;
   text-rendering: optimizeLegibility;
   /* Ensure long words do not overflow into content. */
+/* 
   overflow-wrap: break-word;
   word-wrap: break-word;
   word-break: break-word;
   /* Add a hyphen where the word breaks (use `&shy;` to insert a soft-hyphen in a word). */
+/* 
   -webkit-hyphens: manual;
   -ms-hyphens: manual;
   hyphens: manual; }
-
+*/
 #person-telephone {
   font-size: medium; }
 
@@ -9779,9 +9790,6 @@ h2, h3, h4, h5, h6 {
 
 #contact {
   font-family: trcd; }
-
-#meettheartists {
-  box-shadow: 0px 2px 0px #e0e0e0; }
 
 #landing2 {
   position: relative;
@@ -9819,6 +9827,34 @@ h2, h3, h4, h5, h6 {
   height: stretch;
   max-height: 60px;
   max-width: fit-content; }
+
+#meettheartists {
+  text-align: center;
+  font-family: 'mtr', sans-serif;
+  font-size: large;
+  line-height: 50px;
+  letter-spacing: 0.35em;
+  margin-top: 80px;
+  margin-bottom: 0;
+  box-shadow: 0 2px 0 #e0e0e0; }
+
+#aufstrebend {
+  text-align: center;
+  font-family: 'mtr', sans-serif;
+  font-size: large;
+  line-height: 50px;
+  letter-spacing: 0.35em;
+  margin-top: 80px;
+  box-shadow: 0 2px 0 #e0e0e0; }
+
+#contact_header {
+  text-align: center;
+  font-family: 'mtr', sans-serif;
+  font-size: large;
+  line-height: 50px;
+  letter-spacing: 0.35em;
+  margin-top: 80px;
+  box-shadow: 0 2px 0 #e0e0e0; }
 
 .bounce {
   -webkit-animation: bounce 2s infinite;

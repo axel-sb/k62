@@ -17,20 +17,20 @@ height = "calc(100vh - 70px)"
 
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
-[[item]]
-  title = "Kommune"
-  title2 = "62"
-  content = "Art for people who know the value of everything and the price of nothing"
+# [[item]]
+#  title = "Kommune"
+#  title2 = "62"
+#  content = "Art for people who know the value of everything and the price of nothing"
   align = "center"
 
 # Uncomment to use custom SVG icons.
 # Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
 # Reference the SVG icon name (without `.svg` extension) in the `icon` field.
 [[feature]]
-# icon = "k62_title_grey"
-# icon_pack = "custom"
-# name = "Art for people who know the value of everything and the price of nothing"
-# description = "Unbezahlbar."
+ icon = "hero"
+ icon_pack = "custom"
+ name = "Art for people who know the value of everything and the price of nothing"
+ description = "Unbezahlbar."
 
 # [[item]]
 # overlay_img = "background.png"  # Image path relative to your `static/media/` folder.
