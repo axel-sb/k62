@@ -14,10 +14,10 @@
   url = "landing/"  # Widget Page folder name.
   weight = 20  # Position of the link in the navigation bar.
 
-[[main]]
-  name = "Grid"  # Title of the link.
-  url = "grid/"  # Widget Page folder name.
-  weight = 30  # Position of the link in the navigation bar.  
+#[[main]]
+#  name = "Hero"  # Title of the link.
+#  url = "hero/"  # Widget Page folder name.
+#  weight = 10  # Position of the link in the navigation bar.  
 
 [[main]]
   name = "LP2"  # Title of the link.
