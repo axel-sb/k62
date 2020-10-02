@@ -435,10 +435,10 @@ h2.mb-4 {
   
   @keyframes pulse {
     0% {
-      background-color: #001F3F;
+      opacity: 0;
     }
     100% {
-      background-color: #FF4136;
+      opacity: 1;
     }
   }
 
@@ -674,8 +674,16 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(hero.svg);
   background-repeat: no-repeat;
   background-position-y: 40%;
-  background-position-x: center;
+  background-position-x: center;  
+  animation-name: fade-in;
+  animation-duration: 5s;
 }
+
+@keyframes fade-in {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 /*
 .landing-svg2 {
   width: 90%;
