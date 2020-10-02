@@ -9,10 +9,10 @@
   url = "#people_artists"
   weight = 15
 
-[[main]]
-  name = "LP"  # Title of the link.
-  url = "landing/"  # Widget Page folder name.
-  weight = 20  # Position of the link in the navigation bar.
+#[[main]]
+#  name = "LP"  # Title of the link.
+#  url = "landing/"  # Widget Page folder name.
+#  weight = 20  # Position of the link in the navigation bar.
 
 #[[main]]
 #  name = "Hero"  # Title of the link.

@@ -1,9 +1,5 @@
 /* line 16, ../../../../../Users/a/Projects/_web/misc/stars/parallax-star-background-in-css/src/style.sass */
-html {
-  height: 100%;
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-  overflow: hidden;
-}
+
 
 /* line 21, ../../../../../Users/a/Projects/_web/misc/stars/parallax-star-background-in-css/src/style.sass */
 #stars {
@@ -69,11 +65,6 @@ html {
 
 
 /* line 85, ../../../../../Users/a/Projects/_web/misc/stars/parallax-star-background-in-css/src/style.sass */
-#title span {
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 @keyframes animStar {
   from {
