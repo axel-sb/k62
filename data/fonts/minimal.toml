@@ -2,9 +2,9 @@
 name = "minimal"
 
 # Optional Google font URL
-google_fonts = "family=Oswald:wght@200;300;400;500;600;700&family=Special+Elite"
+
 # Font families
-heading_font = "qwerty"
+heading_font = "mtr"
 body_font = "trcd"
 nav_font = "trcd"
 mono_font = "trcd"
