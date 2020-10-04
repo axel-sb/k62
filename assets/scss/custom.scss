@@ -42,7 +42,7 @@
 
 .navbar-light .navbar-brand {
   font-family: trcd, sans-serif !important;
-  font-size: 1.6rem;
+  font-size: 1em;
   font-weight: 500;
   color: #8d99a6;
 }
@@ -50,9 +50,16 @@
 .navbar-brand {
   margin: 0 auto;
   font-family: trcd, sans-serif !important;
-  font-size: 1.6rem;
+  font-size: 1em;
   color:#8d99a6;
   display: flex;
+}
+
+.navbar-brand:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  transition: all 0.8s ease-in;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -65,6 +72,13 @@
   padding: 0.5rem 1rem;
   font-family: trcd, sans-serif !important;
   font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  transition: all 0.8s ease-in;
 }
 
 #navbar-main .main-menu-item ul li .nav-link {
@@ -182,7 +196,13 @@ button.bg-primary:focus {
 .btn-outline-primary:hover {
   color: $primary_text_color_dark_bright;
   background-color: $primary_t1;
-  border-color: $primary_t1;
+  border-color: #f43135 !important;
+}
+
+.btn-outline-primary:hover {
+  color: #151515;
+  background-color: #607990;
+  border-color: #607990;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -376,57 +396,17 @@ btn btn-primary btn-lg active {
   background-color: #6079909a !important; }
 
 
-h2.mb-4 {
-  display: none;
-}
-
 .home-section {
   position: relative;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   padding: 10px 0 10px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
 
-#people_artists.home-section.wg-people {
-  height: 100%;
-  margin: 40px 0 80px;
-  background-color: #f7f7f7;
-  font-size: 1.8em; }
-
-
-.people-widget .portrait-title h2 {
-  font-size: 1.5rem;
-  line-height: 1.8rem;
-  font-weight: 300;
-}
-
-
-
-#people_aufstrebend.home-section.wg-people {
-  height: 100%;
-  margin: 40px 0 80px;
-  background-color: #f7f7f7;
-  font-size: 1.8em; }
-
-
 .my-widget {
   height: 3000px;
   }
-
-.people-widget .avatar {
-    width: 80%;
-    max-width: 150px;
-    height: auto;
-}
-
-@media (min-width: 576px) {
-  .people-widget .col-sm-auto {
-    width: 60%; } }
-
-@media (min-width: 992px) {
-  .people-widget .col-sm-auto {
-    width: 30%; } }
     
   /* animation ************************************/
   .element {
@@ -470,30 +450,54 @@ h2.mb-4 {
 
 /*************************************************
  *  People widget
- **************************************************/
- .people-widget {
-  font-size: 1.5rem;
-  text-align: center; }
+ *************************************************/
 
-.people-widget .portrait-title h3 {
-  font-size: 0.7rem; }
+
+.people-widget .portrait-title h2 {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+
+#people_artists.home-section.wg-people {
+  height: 100%;
+  margin: 40px 0 80px;
+  background-color: #f7f7f7;
+  font-size: 1.8em; }
+
+#people_aufstrebend.home-section.wg-people {
+  height: 100%;
+  margin: 40px 0 80px;
+  background-color: #f7f7f7;
+  font-size: 1.8em; }
 
 .people-widget .avatar {
-  width: 80%;
-  max-width: 150px;
-  height: auto; }
+    width: 80%;
+    max-width: 150px;
+    height: auto;
+}
 
 @media (min-width: 576px) {
   .people-widget .col-sm-auto {
-    width: 30%; } }
+    width: 60%; } }
 
 @media (min-width: 992px) {
   .people-widget .col-sm-auto {
-    width: 20%; } }
+    width: 30%; } }
+
+h2.mb-4 {
+  display: none;
+} 
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 
 /*************************************************
  *  Contact
- **************************************************/
+ ************************************************/
 .contact-widget .fa-ul {
   margin-left: 3.14285714rem;
   font-family: trcd !important;
@@ -517,34 +521,65 @@ h2.mb-4 {
 .contact-widget li:last-of-type {
   margin-bottom: 0; }
 
-#map {
-  height: 350px;
-  width: 100%; }
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-family: trcd;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
 
+.btn {
+  display: inline-block;
+  font-family: trcd;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: #0000;
+  border: 1px solid #ced4da;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
 
-/* Create a parallax-like scrolling effect. */
+/*************************************************
+ * Create a parallax-like scrolling effect.
+************************************************/
+
 #hero-svg {
   background-image: url(hero.svg);
   background-attachment: fixed;
   background-position: center;
-  background-size: contain;
+  background-size: calc(50% * vh);
 }
+/* background-size: calc(contain) */
 
 .parallax {
   height: 100%;
   background-attachment: fixed; }
 
 .home-section:first-of-type {
-  padding-top: 50px; }
-
-.home-section:nth-of-type(even) {
-  background-color: #f7f7f7; }
+   background-color: #f7f7f7; }
 
 .dark .home-section {
-  background-color: #272935; }
+  background-color: #d3d3d3; }
 
 .dark .home-section:nth-of-type(even) {
-  background-color: #23252f; }
+  background-color: #969696; }
 
 @media screen and (max-width: 768px) {
   .home-section {
@@ -562,7 +597,7 @@ h2.mb-4 {
 
 
 
-/************************************************
+/*******************************
  *  Gallery orig..
 
 .gallery {
@@ -587,7 +622,7 @@ a[data-fancybox] {
   font-size: 1rem;
   line-height: 1.5rem;
   text-align: center; }
- **************************************************/
+******************************/
 
 /*************************************************
  *  Gallery.
@@ -600,7 +635,7 @@ a[data-fancybox] {
   text-decoration: none;
   cursor: zoom-in; }
 
-  .gallery a[data-fancybox] img {
+.gallery a[data-fancybox] img {
     height: auto !important;
     width: 320px !important;
     max-width: inherit;
@@ -608,7 +643,7 @@ a[data-fancybox] {
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    vertical-align: inherit; }
+    vertical-align: inherit; }  
 
 .fancybox-caption {
   font-size: 1rem;
@@ -636,7 +671,6 @@ h1, h2, h3, h4, h5, h6 {
   -ms-hyphens: manual;
   hyphens: manual; }
 */
-
 
   #person-telephone {
     font-size: medium;
@@ -667,22 +701,38 @@ h1, h2, h3, h4, h5, h6 {
   background-position-y: 40%;
   background-position-x: center;  
   animation-name: fade-in;
-  animation-duration: 5s;
+  animation-duration: 7s;
+  animation-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 @keyframes fade-in {
-  from {opacity: 0;}
+  from {opacity: 0.1;}
   to {opacity: 1;}
 }
+
+@media screen and (max-width: 768px) {
 .navbar-brand img {
   width: auto;
   height: -moz-available;
   height: -webkit-fill-available;
   height: -webkit-stretch;
   height: stretch;
-  max-height: 60px;
+  max-height: 1.8em;
   max-width: fit-content;
-}
+}}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand img {
+    width: auto;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: -webkit-stretch;
+    height: stretch;
+    max-height: 1.6em;
+    max-width: fit-content;
+  }}
+
+
 
 #meettheartists {
   text-align: center;
@@ -704,7 +754,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 80px;
   box-shadow: 0 2px 0 #e0e0e0;}
 
-  #contact_header {  
+#contact_header {  
     text-align: center;
     font-family: 'mtr', sans-serif;
     font-size: large;
@@ -752,6 +802,7 @@ h1, h2, h3, h4, h5, h6 {
       background: transparent;
       box-shadow: 427px 392px #000 , 913px 1105px #000 , 1333px 1810px #000 , 1247px 132px #000 , 532px 1148px #000 , 1715px 1155px #000 , 1470px 792px #000 , 942px 1627px #000 , 1303px 869px #000 , 848px 1836px #000 , 1927px 685px #000 , 1648px 1958px #000 , 1024px 1769px #000 , 1970px 224px #000 , 495px 1551px #000 , 1399px 1799px #000 , 1403px 881px #000 , 1537px 794px #000 , 1368px 747px #000 , 375px 148px #000 , 1775px 212px #000 , 1312px 844px #000 , 797px 99px #000 , 430px 684px #000 , 1524px 890px #000 , 739px 1647px #000 , 1181px 1698px #000 , 1627px 943px #000 , 1149px 1104px #000 , 1637px 1969px #000 , 297px 1873px #000 , 82px 170px #000 , 457px 967px #000 , 9px 1057px #000 , 348px 1959px #000 , 1273px 1670px #000 , 1124px 797px #000 , 153px 648px #000 , 185px 5px #000 , 1064px 1789px #000 , 89px 1111px #000 , 31px 1433px #000 , 990px 287px #000 , 1174px 987px #000 , 1525px 1856px #000 , 1032px 865px #000 , 1461px 530px #000 , 1771px 977px #000 , 1460px 1134px #000 , 1658px 1749px #000 , 1593px 1261px #000 , 602px 1436px #000 , 1037px 1184px #000 , 1979px 1912px #000 , 1990px 1331px #000 , 496px 905px #000 , 276px 1204px #000 , 1759px 1146px #000 , 558px 929px #000 , 627px 636px #000 , 941px 485px #000 , 77px 105px #000 , 30px 1080px #000 , 1875px 1833px #000 , 1420px 790px #000 , 483px 1280px #000 , 1815px 363px #000 , 252px 808px #000 , 1078px 834px #000 , 1176px 1873px #000 , 1416px 123px #000 , 1768px 1159px #000 , 1616px 82px #000 , 25px 43px #000 , 1220px 1351px #000 , 1422px 506px #000 , 460px 1596px #000 , 141px 895px #000 , 1526px 521px #000 , 1265px 1150px #000 , 257px 1280px #000 , 679px 1750px #000 , 1435px 231px #000 , 1247px 1032px #000 , 752px 1853px #000 , 828px 1440px #000 , 708px 1810px #000 , 1492px 256px #000 , 1280px 148px #000 , 1658px 1707px #000 , 243px 1183px #000 , 55px 1599px #000 , 461px 635px #000 , 1630px 718px #000 , 1035px 1439px #000 , 452px 278px #000 , 399px 1721px #000 , 435px 1639px #000 , 1252px 1075px #000 , 1237px 1486px #000 , 225px 1865px #000 , 755px 110px #000 , 977px 264px #000 , 429px 1063px #000 , 126px 1479px #000 , 318px 1013px #000 , 57px 430px #000 , 1276px 681px #000 , 592px 638px #000 , 113px 1103px #000 , 1122px 1673px #000 , 1877px 1424px #000 , 727px 119px #000 , 944px 1211px #000 , 507px 1856px #000 , 104px 629px #000 , 1186px 1191px #000 , 1473px 613px #000 , 1902px 1347px #000 , 976px 614px #000 , 1486px 1860px #000 , 1654px 881px #000 , 1728px 1140px #000 , 535px 279px #000 , 1727px 119px #000 , 532px 252px #000 , 1333px 772px #000 , 645px 528px #000 , 435px 259px #000 , 780px 858px #000 , 1261px 1369px #000 , 1199px 207px #000 , 1169px 999px #000 , 1634px 38px #000 , 526px 1523px #000 , 1634px 1316px #000 , 1811px 504px #000 , 606px 338px #000 , 1931px 1105px #000 , 1647px 1622px #000 , 734px 1833px #000 , 868px 733px #000 , 1596px 1832px #000 , 773px 738px #000 , 1919px 508px #000 , 1505px 367px #000 , 271px 479px #000 , 58px 1644px #000 , 332px 713px #000 , 65px 1144px #000 , 1804px 765px #000 , 1959px 613px #000 , 1178px 1120px #000 , 1110px 1477px #000 , 871px 1660px #000 , 660px 374px #000 , 1209px 1490px #000 , 234px 751px #000 , 1544px 869px #000 , 1956px 1987px #000 , 1097px 1546px #000 , 1619px 1856px #000 , 1296px 1980px #000 , 1999px 720px #000 , 1081px 1438px #000 , 1467px 815px #000 , 330px 686px #000 , 730px 261px #000 , 461px 1850px #000 , 1195px 1389px #000 , 887px 1936px #000 , 568px 48px #000 , 454px 620px #000 , 885px 1902px #000 , 16px 1154px #000 , 1716px 1820px #000 , 1075px 1705px #000 , 1703px 1443px #000 , 1633px 1297px #000 , 1111px 710px #000 , 1832px 1076px #000 , 578px 1048px #000 , 1830px 760px #000 , 672px 1938px #000 , 1413px 434px #000 , 1412px 311px #000 , 1486px 1339px #000 , 334px 237px #000 , 1539px 1523px #000 , 470px 1156px #000 , 1257px 1275px #000 , 820px 725px #000 , 64px 1096px #000 , 1133px 679px #000 , 240px 958px #000 , 1360px 344px #000 , 1591px 1083px #000 , 1285px 1861px #000 , 638px 473px #000 , 1949px 1424px #000;
     }
+
     
     #stars3 {
       width: 1px;
@@ -784,14 +835,3 @@ h1, h2, h3, h4, h5, h6 {
     
     /*# sourceMappingURL=style.css.map */
 
-
-
-
-
-
-
-
-.bounce {
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
