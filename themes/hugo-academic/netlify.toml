@@ -24,3 +24,15 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
+
+[[headers]]
+  for = "assets/fonts/typewcond_regular-webfont.woff2"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/font-woff2"
+
+[[headers]]
+  for = "assets/fonts/Moms_typewriter.ttf"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/font-ttf"

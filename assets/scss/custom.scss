@@ -305,14 +305,14 @@ btn btn-primary btn-lg active {
   color: primary_t5 !important;
   background-color: #151515 !important;
 }
-
+/*
 .home-section.wg-slider {
     padding: 0;
     animation: none;
     animation-delay: unset;
     background-color: #151515;
 }
-
+*/
 .hero-title {
     font-family: 'mtr', sans-serif;
     color: #dee2e6 !important;
@@ -337,14 +337,44 @@ btn btn-primary btn-lg active {
   padding-top: 10%;
   }
 
+@media all and (max-width: 500px) {
 .hero-lead {
-  font-family: mtr,space, sans-serif;
-  color: #fc4545 !important;
-  font-size: 1rem !important;
-  max-width: 768px;
-  line-height: 1.5;
-  margin-bottom: 0.5em;
-}
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+  font-size: small;
+  font-family: mtr;
+  width: 50vw;
+}}
+
+@media all and (min-width: 501px) {
+.hero-lead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  font-family: mtr;
+}}
+
+@media all and (min-width: 1500px) {
+.hero-lead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-family: mtr;
+}}
+
+@media all and (min-width: 2500px) {
+.hero-lead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  margin: 15% 10%;
+  font-family: mtr;
+}}
+
 
 .wg-hero.dark .btn {
   color: transparent;
@@ -559,18 +589,75 @@ h2.mb-4 {
 /*************************************************
  * Create a parallax-like scrolling effect.
 ************************************************/
-
+/*
+@media all and (max-width: 500px) {
 #hero-svg {
-  background-image: url(hero.svg);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: calc(50% * vh);
-}
-/* background-size: calc(contain) */
+    background-image: url(hero-light4.svg);
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 25%;
+    background-size: contain;
+}}
+
+@media all and (min-width: 501px) {
+  #hero-svg {
+    background-image: url(hero-light4.svg);
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 25%;
+    background-size: 40%;
+}}
+
+@media all and (min-width: 1500px) {
+  #hero-svg {
+    background-image: url(hero-light4.svg);
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 25%;
+    background-size: 30%;
+}}
+
+@media all and (min-width: 2500px) {
+  #hero-svg {
+    background-image: url(hero-light4.svg);
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 25%;
+    background-size: 20%;
+}}
+*/
 
 .parallax {
-  height: 100%;
-  background-attachment: fixed; }
+    background-size: 70%;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    animation-name: fade-in;
+    animation-duration: 7s;
+    animation-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1)
+}
+
+@media screen and (min-width: 400px) {
+  .parallax {
+    background-size: 30%;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    animation-name: fade-in;
+    animation-duration: 7s;
+    animation-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1)
+}}
+
+@media screen and (min-width: 1000px) {
+  .parallax {
+    background-size: 20%;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    animation-name: fade-in;
+    animation-duration: 7s;
+    animation-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1)
+}}
 
 .home-section:first-of-type {
    background-color: #f7f7f7; }
@@ -583,9 +670,9 @@ h2.mb-4 {
 
 @media screen and (max-width: 768px) {
   .home-section {
+    height: 100vh;
     padding: 60px 0 60px 0; }
-  .home-section:first-of-type {
-    padding-top: 40px; } }
+ }
 
 .section-heading h1 {
   margin: 0 0 10px 0; }
@@ -689,7 +776,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    ;
 }
 
 .landing-svg2 {
@@ -710,16 +796,6 @@ h1, h2, h3, h4, h5, h6 {
   to {opacity: 1;}
 }
 
-@media screen and (max-width: 768px) {
-.navbar-brand img {
-  width: auto;
-  height: -moz-available;
-  height: -webkit-fill-available;
-  height: -webkit-stretch;
-  height: stretch;
-  max-height: 1.8em;
-  max-width: fit-content;
-}}
 
 @media screen and (max-width: 768px) {
   .navbar-brand img {
@@ -732,17 +808,14 @@ h1, h2, h3, h4, h5, h6 {
     max-width: fit-content;
   }}
 
-
-
 #meettheartists {
   text-align: center;
-  font-family: 'mtr', sans-serif;
+  font-family: 'mtr', sans-serif !important;
   font-size: large;
   line-height: 50px;
   letter-spacing: 0.35em;
   margin-top: 80px;
   margin-bottom: 0;
-  box-shadow: 0 2px 0 #e0e0e0;
 }
 
 #aufstrebend {  
@@ -751,8 +824,15 @@ h1, h2, h3, h4, h5, h6 {
   font-size: large;
   line-height: 50px;
   letter-spacing: 0.35em;
-  margin-top: 80px;
-  box-shadow: 0 2px 0 #e0e0e0;}
+  margin-top: 80px;}
+
+#fotografie {  
+  text-align: center;
+  font-family: 'mtr', sans-serif;
+  font-size: large;
+  line-height: 50px;
+  letter-spacing: 0.35em;
+  margin-top: 80px;}
 
 #contact_header {  
     text-align: center;
@@ -760,8 +840,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: large;
     line-height: 50px;
     letter-spacing: 0.35em;
-    margin-top: 80px;
-    box-shadow: 0 2px 0 #e0e0e0;}    
+    margin-top: 80px;}    
     
     
     #stars {
@@ -835,3 +914,10 @@ h1, h2, h3, h4, h5, h6 {
     
     /*# sourceMappingURL=style.css.map */
 
+#back-link {
+    margin: 0;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 24px;
+    color: #f43135;
+}
