@@ -2,10 +2,10 @@
 name = "my_font_set"
 
 # Optional Google font URL
-google_fonts = "family=Oswald:wght@200;300;400;500;600;700&family=Special+Elite"
+google_fonts = "Oswald:wght@200;300;400;500;600;700|Special+Elite"
 # Font families
-heading_font = "Special Elite"
-body_font = "Oswald"
-nav_font = "Oswald"
-mono_font = "Oswald"
+heading_font = "mtr"
+body_font = "trcd"
+nav_font = "trcd"
+mono_font = "trcds"
 
