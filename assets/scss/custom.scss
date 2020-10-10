@@ -38,7 +38,31 @@
   font-family: "rt";
   src: url("/fonts/rough_typewriter.otf");
 }
+
+
+glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #787878, 0 0 40px #828282, 0 0 50px #959595, 0 0 60px #e5 s e5e5, 0 0 70px #f2f2f2;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #d5d1d3, 0 0 40px #9eb4cf, 0 0 50px #9eb4cf, 0 0 60px #9eb4cf, 0 0 70px #9eb4cf, 0 0 80px #9eb4cfs ;
+  }
+}
 */
+.navbar-light .navbar-toggler {
+  color: #34495E; 
+  border-color: #0000;
+}
 
 .navbar-light .navbar-brand {
   font-family: trcd, Oswald sans-serif !important;
@@ -65,6 +89,7 @@
 .navbar .navbar-nav .nav-link {
   font-family: trcd, Oswald sans-serif !important;
   color: #8d99a6;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
 .nav-link {
@@ -439,6 +464,8 @@ btn btn-primary btn-lg active {
   }
     
   /* animation ************************************/
+      /* pulse ************************************/
+
   .element {
     animation: pulse 5s infinite;
   }
@@ -561,11 +588,12 @@ h2.mb-4 {
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
+    background-color: #ced4da;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transform: scale(10%);
 }
 
 .btn {
@@ -809,6 +837,7 @@ h1, h2, h3, h4, h5, h6 {
   }}
 
 #meettheartists {
+  height: 10%;
   text-align: center;
   font-family: 'mtr', sans-serif !important;
   font-size: large;
@@ -819,6 +848,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #aufstrebend {  
+  height: 10%;
   text-align: center;
   font-family: 'mtr', 'Special Elite', sans-serif;
   font-size: large;
@@ -827,6 +857,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 80px;}
 
 #fotografie {  
+  height: 10%;
   text-align: center;
   font-family: 'mtr', 'Special Elite', sans-serif;
   font-size: large;
