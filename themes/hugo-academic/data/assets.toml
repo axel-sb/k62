@@ -112,3 +112,5 @@
   version = "3.1.1"
   sri = "sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q="
   url = "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/%s/cookieconsent.min.css"
+[css.fonts]
+  url = "assets/scss/custom.scss"
