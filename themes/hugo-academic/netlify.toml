@@ -32,7 +32,7 @@
     Content-Type = "application/font-woff2"
 
 [[headers]]
-  for = "assets/fonts/Moms_typewriter.ttf"
+  for = "assets/fonts/typewcond_regular-webfont.woff2"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    Content-Type = "application/font-ttf"
+    Content-Type = "application/font-woff2"

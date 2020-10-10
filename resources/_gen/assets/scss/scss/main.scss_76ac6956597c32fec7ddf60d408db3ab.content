@@ -9239,7 +9239,7 @@ html[dir="rtl"] body {
 
 @font-face {
   font-family: "mtr";
-  src: url("/fonts/Moms_typewriter.ttf"); }
+  src: url("/fonts/moms_typewriter-webfont.woff2"); }
 
 /*
 @font-face {
@@ -9545,7 +9545,7 @@ btn btn-primary btn-lg active {
     align-items: center;
     text-align: center;
     font-size: small;
-    font-family: mtr;
+    font-family: 'mtr', 'Special Elite', sans-serif;
     width: 50vw; } }
 
 @media all and (min-width: 501px) {
@@ -9554,7 +9554,7 @@ btn btn-primary btn-lg active {
     justify-content: center;
     align-items: center;
     font-size: medium;
-    font-family: mtr; } }
+    font-family: 'mtr', 'Special Elite', sans-serif; } }
 
 @media all and (min-width: 1500px) {
   .hero-lead {
@@ -9562,17 +9562,19 @@ btn btn-primary btn-lg active {
     justify-content: center;
     align-items: center;
     font-size: large;
-    font-family: mtr; } }
+    font-family: 'mtr', 'Special Elite', sans-serif; } }
 
+/*
 @media all and (min-width: 2500px) {
-  .hero-lead {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large;
-    margin: 15% 10%;
-    font-family: mtr; } }
-
+.hero-lead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  margin: 15% 10%;
+  font-family: mtr;
+}}
+*/
 .wg-hero.dark .btn {
   color: transparent;
   background-color: transparent;
@@ -9903,26 +9905,11 @@ a[data-fancybox] {
   line-height: 1.5rem;
   text-align: center; }
 
-/* Headings 
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "qwerty", sans-serif;
-  font-weight: 400;
-  margin-top: 1rem;
-  margin-bottom: .5rem;
-  line-height: 1.25;
-  color: #313131;
-  text-rendering: optimizeLegibility;
-  /* Ensure long words do not overflow into content. */
-/* 
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
-  /* Add a hyphen where the word breaks (use `&shy;` to insert a soft-hyphen in a word). */
-/* 
-  -webkit-hyphens: manual;
-  -ms-hyphens: manual;
-  hyphens: manual; }
-*/
+  font-family: 'mtr', 'Special Elite', sans-serif; }
+
+/* Ensure long words do not overflow into content. */
 #person-telephone {
   font-size: medium; }
 
@@ -9969,7 +9956,7 @@ h1, h2, h3, h4, h5, h6 {
 #meettheartists {
   height: 10%;
   text-align: center;
-  font-family: 'mtr', sans-serif !important;
+  font-family: 'mtr', 'Special Elite', sans-serif;
   font-size: large;
   line-height: 50px;
   letter-spacing: 0.35em;

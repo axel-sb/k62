@@ -49,7 +49,7 @@ height = "calc(100vh - 70px)"
   align = "right"
 
   overlay_color = ""  # An HTML color value.
-  overlay_img = "Baum.png"  # Image path relative to your `static/media/` folder.
+  overlay_img = "Baum.jpg"  # Image path relative to your `static/media/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 
