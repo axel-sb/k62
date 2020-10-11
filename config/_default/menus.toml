@@ -24,10 +24,10 @@
   url = "#slider_corinna"
   weight = 40 
   
-[[main]]
-  name = "Slider"
-  url = "#slider2"
-  weight = 50 
+#  [[main]]
+#    name = "Slider"
+#    url = "#slider2"
+#    weight = 50 
 
 #[[main]]
 #  name = "LP2"  # Title of the link.

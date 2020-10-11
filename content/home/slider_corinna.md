@@ -21,12 +21,9 @@ height = "calc(100vh - 70px)"
   overlay_filter = 0.5
 
 [[item]]
-  title = "Hello"
-  content = "I am center aligned :smile:"
-  align = "center"  # Choose `center`, `left`, or `right`.
 overlay_img = "IMG_9167-1024x1024.jpg"
   cta_label = "more..."
-  cta_url = "/project/kapuze"
+  cta_url = "/project/corinna"
 # cta_icon_pack = "fas"
 # cta_icon = "graduation-cap"
 
