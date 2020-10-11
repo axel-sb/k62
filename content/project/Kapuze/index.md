@@ -12,12 +12,11 @@ external_link: ""
 # slides: example
 # summary: An example of using the in-built project page.
 tags:
-- umwerfend
-title: Corinna Bernshaus
+title: ""
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: "Heike-Interview-16-9-Website.mp4"
+url_video: ""
 ---
 
 {{< gallery >}}

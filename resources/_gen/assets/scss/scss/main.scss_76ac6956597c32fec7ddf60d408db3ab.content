@@ -9548,7 +9548,7 @@ btn btn-primary btn-lg active {
     font-family: 'mtr', 'Special Elite', sans-serif;
     width: 50vw; } }
 
-@media all and (min-width: 501px) {
+@media (min-width: 576px) {
   .hero-lead {
     display: flex;
     justify-content: center;
@@ -9556,7 +9556,7 @@ btn btn-primary btn-lg active {
     font-size: medium;
     font-family: 'mtr', 'Special Elite', sans-serif; } }
 
-@media all and (min-width: 1500px) {
+@media (min-width: 992px) {
   .hero-lead {
     display: flex;
     justify-content: center;
