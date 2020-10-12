@@ -22,20 +22,18 @@ height = "calc(100vh - 70px)"
 
 [[item]]
 overlay_img = "IMG_9167-1024x1024.jpg"
-  cta_label = "more..."
+#  cta_label = "more..."
   cta_url = "/project/corinna"
 # cta_icon_pack = "fas"
 # cta_icon = "graduation-cap"
 
 [[item]]
-  overlay_img = "P1010960-1024x1024.jpg"
+  overlay_img = "IMG_9166-1024x1024.jpg"
 
 
 [[item]]
-  overlay_img = "P1010978-1024x1024.jpg"
+  overlay_img = "IMG_9168-1024x1024.jpg"
 
-[[item]]
-  overlay_img = "IMG_7220-1024x1024.jpg"
 +++
 
 
