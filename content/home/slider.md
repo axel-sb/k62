@@ -32,24 +32,15 @@ height = "calc(100vh - 70px)"
   cta_icon = "graduation-cap"
 
 [[item]]
-  title = ""
-  content = ""
-  align = "right"
-
-  overlay_color = ""
-  overlay_img = "Baum.webp" 
+  overlay_img = "Baum_MJPG.jpg" 
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 
 [[item]]
-  title = ""
-  content = ""
-  align = "right"
-  overlay_color = ""
   overlay_img = "JeremyMolene_tiddlywiki_1500x500.jpeg"
   overlay_filter = 0
 
-  [[item]]
+[[item]]
   overlay_img = "IMG_20191207_174757.jpg"
 +++
 
