@@ -5,29 +5,72 @@
 
 
 [[main]]
-  name = "Artists"
+  name = "Künstler"
   url = "#meettheartists"
-  weight = 15
+  weight = 10
 
 [[main]]
-  name = "Aufstrebend"  # Title of the link.
-  url = "#people_aufstrebend"  # Widget Page folder name.
-  weight = 20  # Position of the link in the navigation bar.
+  name = "Alle Kunstwerke"
+  url = "project/underconstruction/"
+  weight = 20
+
+[[main]]
+  name = "Malerei"  # Title of the link.
+  url = "project/underconstruction/"
+  weight = 30  # 
+
+[[main]]
+  name = "Zeichnungen"
+  url = "project/underconstruction/"
+  weight = 40  
+
+[[main]]
+  name = "Skulpturen"
+  url = "project/underconstruction/"
+  weight = 50 
 
 [[main]]
   name = "Fotografie"
-  url = "#fotografie"
-  weight = 30  # Position of the link in the navigation bar.  
+  url = "project/underconstruction/"
+  weight = 60  
 
 [[main]]
-  name = "Corinna"
-  url = "#slider_corinna"
-  weight = 40 
+  name = "Kontakt"
+  url = "#contact"
+  weight = 70 
+
+[[main]]
+  name = "Impressum"
+  url = "project/underconstruction/"
+  weight = 80 
+
+[[main]]
+  name = "Über uns"
+  url = "project/underconstruction/"
+  weight = 90 
+
+
+
+
+#[[main]]
+#   name = "Corinna"
+#   url = "#slider_corinna"
+#   weight = 40 
+
+# [[main]]
+#  name = "Aufstrebend"  # Title of the link.
+#  url = "#people_aufstrebend"  # Widget Page folder name.
+#  weight = 20  # Position of the link in the navigation bar.
+
+
+
+
+
   
-#  [[main]]
-#    name = "Slider"
-#    url = "#slider2"
-#    weight = 50 
+#[[main]]
+#  name = "Slider"
+#  url = "#slider2"
+#  weight = 50 
 
 #[[main]]
 #  name = "LP2"  # Title of the link.
@@ -38,7 +81,6 @@
 #  name = "Projects"
 #  url = "projects"
 #  weight = 30
-
 
 #[[main]]
 #   name = "Galerie"
