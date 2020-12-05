@@ -9241,57 +9241,6 @@ html[dir="rtl"] body {
   font-family: "mtr";
   src: url("/fonts/moms_typewriter-webfont.woff2"); }
 
-/*
-@font-face {
-  font-family: "bs";
-  src: url("/fonts/BadlyStamped.ttf");
-}
-
-@font-face {
-  font-family: "sn";
-  src: url("/fonts/Stamping Nico.ttf");
-}
-
-@font-face {
-  font-family: "pt";
-  src: url("/fonts/Pelkistettya todellisuutta.ttf");
-}
-
-@font-face {
-  font-family: "idimw";
-  src: url("/fonts/I Did It My Way.ttf");
-}
-
-@font-face {
-  font-family: "qwerty";
-  src: url("/fonts/qwerty.otf");
-}
-
-@font-face {
-  font-family: "rt";
-  src: url("/fonts/rough_typewriter.otf");
-}
-
-
-glow {
-  font-size: 80px;
-  color: #fff;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #787878, 0 0 40px #828282, 0 0 50px #959595, 0 0 60px #e5 s e5e5, 0 0 70px #f2f2f2;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #d5d1d3, 0 0 40px #9eb4cf, 0 0 50px #9eb4cf, 0 0 60px #9eb4cf, 0 0 70px #9eb4cf, 0 0 80px #9eb4cfs ;
-  }
-}
-*/
 .navbar-light .navbar-toggler {
   color: #34495E;
   border-color: #0000; }
@@ -9510,14 +9459,6 @@ btn btn-primary btn-lg active {
   color: primary_t5 !important;
   background-color: #151515 !important; }
 
-/*
-.home-section.wg-slider {
-    padding: 0;
-    animation: none;
-    animation-delay: unset;
-    background-color: #151515;
-}
-*/
 @media (min-width: 576px) {
   .hero-title {
     font-family: 'mtr', 'Special Elite', sans-serif;
@@ -9536,16 +9477,6 @@ btn btn-primary btn-lg active {
     margin-top: 10%;
     line-height: 1.3; } }
 
-/*
-.hero-title2 {
-    font-family: 'mtr', 'Special Elite', sans-serif;
-    color: #828485 !important;
-    font-weight: 400 !important;
-    font-size: 15.5rem !important;
-    margin-top: 5%;
-    line-height: 1.3;
-}
-*/
 .svg-icon {
   height: auto;
   width: 90%;
@@ -9576,17 +9507,6 @@ btn btn-primary btn-lg active {
     font-size: large;
     font-family: 'mtr', 'Special Elite', sans-serif; } }
 
-/*
-@media all and (min-width: 2500px) {
-.hero-lead {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: x-large;
-  margin: 15% 10%;
-  font-family: mtr;
-}}
-*/
 .wg-hero.dark .btn {
   color: transparent;
   background-color: transparent;
@@ -9608,21 +9528,6 @@ btn btn-primary btn-lg active {
   height: 50vh;
   width: 50vw; }
 
-.wg-hero.dark .hero-title,
-.wg-hero.dark .hero-lead,
-.wg-hero.dark .hero-cta-alt,
-.wg-hero.dark .hero-note > * {
-  /*text-shadow: 1px 1px 4px rgba(0,0,0,0.5);*/
-  /* Uncomment to standout on complicated backgrounds. */ }
-
-/*
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background: no-repeat 50% / 100% 100%; }
-*/
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
   background-color: #313d4f !important; }

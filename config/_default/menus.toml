@@ -15,7 +15,7 @@
   weight = 20
 
 [[main]]
-  name = "Malerei"  # Title of the link.
+  name = "Malerei"  
   url = "project/underconstruction/"
   weight = 30  # 
 
