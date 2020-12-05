@@ -9622,15 +9622,6 @@ h2.mb-4 {
 /*************************************************
  *  Contact
  ************************************************/
-#contact_header {
-  text-align: center;
-  font-family: 'mtr', 'Special Elite', sans-serif;
-  font-size: large;
-  line-height: 50px;
-  letter-spacing: 0.35em;
-  margin-top: 10px;
-  height: 30px; }
-
 .contact-widget .fa-ul {
   margin-left: 3.14285714rem;
   font-family: trcd !important;
@@ -9688,46 +9679,6 @@ h2.mb-4 {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
-/*************************************************
- * Create a parallax-like scrolling effect.
-************************************************/
-/*
-@media all and (max-width: 500px) {
-#hero-svg {
-    background-image: url(hero-light4.svg);
-    background-attachment: fixed;
-    background-position-x: center;
-    background-position-y: 25%;
-    background-size: contain;
-}}
-
-@media all and (min-width: 501px) {
-  #hero-svg {
-    background-image: url(hero-light4.svg);
-    background-attachment: fixed;
-    background-position-x: center;
-    background-position-y: 25%;
-    background-size: 40%;
-}}
-
-@media all and (min-width: 1500px) {
-  #hero-svg {
-    background-image: url(hero-light4.svg);
-    background-attachment: fixed;
-    background-position-x: center;
-    background-position-y: 25%;
-    background-size: 30%;
-}}
-
-@media all and (min-width: 2500px) {
-  #hero-svg {
-    background-image: url(hero-light4.svg);
-    background-attachment: fixed;
-    background-position-x: center;
-    background-position-y: 25%;
-    background-size: 20%;
-}}
-*/
 .parallax {
   background-size: 70%;
   background-attachment: fixed;
@@ -9778,58 +9729,6 @@ h2.mb-4 {
   font-weight: 400;
   font-size: 1.1rem;
   color: #b2b2b2; }
-
-/*******************************
- *  Gallery orig..
-
-.gallery {
-  margin: 0.5em -4px 1.5em -4px;
-  font-size: 0; }
-
-a[data-fancybox] {
-  text-decoration: none;
-  cursor: zoom-in; }
-
-.gallery a[data-fancybox] img {
-  height: 250px;
-  width: auto;
-  max-width: inherit;
-  display: inherit;
-  margin: 0;
-  padding: 4px;
-  box-shadow: none;
-  vertical-align: inherit; }
-
-.fancybox-caption {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  text-align: center; }
-******************************/
-/*************************************************
- *  Gallery.
- **************************************************/
-.gallery {
-  margin: 0.5em -4px 1.5em -4px;
-  font-size: 0; }
-
-a[data-fancybox] {
-  text-decoration: none;
-  cursor: zoom-in; }
-
-.gallery a[data-fancybox] img {
-  height: auto !important;
-  width: 320px !important;
-  max-width: inherit;
-  display: inherit;
-  margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  vertical-align: inherit; }
-
-.fancybox-caption {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  text-align: center; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -9969,7 +9868,6 @@ h1, h2, h3, h4, h5, h6 {
   to {
     transform: translateY(-2000px); } }
 
-/*# sourceMappingURL=style.css.map */
 #back-link {
   margin: 0;
   text-decoration: none;
