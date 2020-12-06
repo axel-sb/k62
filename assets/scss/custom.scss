@@ -8,6 +8,13 @@
   src: url("/fonts/moms_typewriter-webfont.woff2");
 }
 
+#top > article > div.article-container.pt-3 {
+    max-width: 760px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto 0 auto;
+    text-align: center!important;
+}
+
 .navbar-light .navbar-toggler {
   color: #34495E; 
   border-color: #0000;
@@ -742,4 +749,19 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     line-height: 24px;
     color: #f43135;
+}
+
+
+/*************************************************
+ *  Gallery
+ ************************************************/
+
+/* center images */
+.gallery {
+    margin: .5em -4px 1.5em -4px;
+    font-size: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
 }
