@@ -10,9 +10,9 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 # slides: example
-# summary: An example of using the in-built project page.
-tags:
-- umwerfend
+# summary: An example of using the in-built project page. 
+# tags:
+# - umwerfend
 title: Uscha Urbainsky
 url_code: ""
 url_pdf: ""

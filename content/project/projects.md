@@ -21,21 +21,21 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
-  [[content.filter_button]]
-    name = "Alle"
-    tag = "*"
+  #   [[content.filter_button]]
+  #     name = "Alle"
+  #     tag = "*"
   
-  [[content.filter_button]]
-    name = "aufstrebend"
-    tag = "aufstrebend"
+  #   [[content.filter_button]]
+  #     name = "aufstrebend"
+  #    tag = "aufstrebend"
   
-  [[content.filter_button]]
-    name = "umwerfend"
-    tag = "umwerfend"
+  #   [[content.filter_button]]
+  #   name = "umwerfend"
+  #     tag = "umwerfend"
 
-  [[content.filter_button]]
-    name = "unbeschreiblich"
-    tag = "unbeschreiblich"  
+  #   [[content.filter_button]]
+  #     name = "unbeschreiblich"
+  #     tag = "unbeschreiblich"  
 
 
 
